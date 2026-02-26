@@ -1,0 +1,2528 @@
+Checking whether '/nix/store/hx59pzhi1x2mfm1yjyg8rf3c9swa4nph-gcc-13.3.0/bin/gcc    ' works.
+Try: /nix/store/hx59pzhi1x2mfm1yjyg8rf3c9swa4nph-gcc-13.3.0/bin/gcc
+Line: /nix/store/hx59pzhi1x2mfm1yjyg8rf3c9swa4nph-gcc-13.3.0/bin/gcc     cmake_bootstrap_39726_test.c -o cmake_bootstrap_39726_test
+----------  file   -----------------------
+
+#ifdef __cplusplus
+# error "The CMAKE_C_COMPILER is set to a C++ compiler"
+#endif
+
+#if defined(_AIX) && defined(__GNUC__) && !defined(_THREAD_SAFE)
+#error "On AIX with GNU we need the -pthread flag."
+#endif
+
+#if defined(__sun) && __STDC_VERSION__ < 199901L
+#error "On Solaris we need C99."
+#endif
+
+#if defined(__hpux) && !(defined(__GNUC__) && ((__GNUC__ * 100) + __GNUC_MINOR__) >= 409)
+#error "On HP-UX we need GCC 4.9 or higher."
+#endif
+
+#include <stdio.h>
+
+int main(int argc, char* argv[])
+{
+  printf("%d%c", (argv != 0), (char)0x0a);
+  return argc - 1;
+}
+
+------------------------------------------
+gcc: fatal error: cannot execute ‘as’: execvp: No such file or directory
+compilation terminated.
+Test failed to compile
+Checking whether '/nix/store/hx59pzhi1x2mfm1yjyg8rf3c9swa4nph-gcc-13.3.0/bin/gcc   -std=gnu11 ' works.
+Try: /nix/store/hx59pzhi1x2mfm1yjyg8rf3c9swa4nph-gcc-13.3.0/bin/gcc
+Line: /nix/store/hx59pzhi1x2mfm1yjyg8rf3c9swa4nph-gcc-13.3.0/bin/gcc   -std=gnu11  cmake_bootstrap_39726_test.c -o cmake_bootstrap_39726_test
+----------  file   -----------------------
+
+#ifdef __cplusplus
+# error "The CMAKE_C_COMPILER is set to a C++ compiler"
+#endif
+
+#if defined(_AIX) && defined(__GNUC__) && !defined(_THREAD_SAFE)
+#error "On AIX with GNU we need the -pthread flag."
+#endif
+
+#if defined(__sun) && __STDC_VERSION__ < 199901L
+#error "On Solaris we need C99."
+#endif
+
+#if defined(__hpux) && !(defined(__GNUC__) && ((__GNUC__ * 100) + __GNUC_MINOR__) >= 409)
+#error "On HP-UX we need GCC 4.9 or higher."
+#endif
+
+#include <stdio.h>
+
+int main(int argc, char* argv[])
+{
+  printf("%d%c", (argv != 0), (char)0x0a);
+  return argc - 1;
+}
+
+------------------------------------------
+gcc: fatal error: cannot execute ‘as’: execvp: No such file or directory
+compilation terminated.
+Test failed to compile
+Checking whether '/nix/store/hx59pzhi1x2mfm1yjyg8rf3c9swa4nph-gcc-13.3.0/bin/gcc   -std=gnu11 ' works.
+Try: /nix/store/hx59pzhi1x2mfm1yjyg8rf3c9swa4nph-gcc-13.3.0/bin/gcc
+Line: /nix/store/hx59pzhi1x2mfm1yjyg8rf3c9swa4nph-gcc-13.3.0/bin/gcc   -std=gnu11  cmake_bootstrap_39726_test.c -o cmake_bootstrap_39726_test
+----------  file   -----------------------
+
+#ifdef __cplusplus
+# error "The CMAKE_C_COMPILER is set to a C++ compiler"
+#endif
+
+#if defined(_AIX) && defined(__GNUC__) && !defined(_THREAD_SAFE)
+#error "On AIX with GNU we need the -pthread flag."
+#endif
+
+#if defined(__sun) && __STDC_VERSION__ < 199901L
+#error "On Solaris we need C99."
+#endif
+
+#if defined(__hpux) && !(defined(__GNUC__) && ((__GNUC__ * 100) + __GNUC_MINOR__) >= 409)
+#error "On HP-UX we need GCC 4.9 or higher."
+#endif
+
+#include <stdio.h>
+
+int main(int argc, char* argv[])
+{
+  printf("%d%c", (argv != 0), (char)0x0a);
+  return argc - 1;
+}
+
+------------------------------------------
+gcc: fatal error: cannot execute ‘as’: execvp: No such file or directory
+compilation terminated.
+Test failed to compile
+Checking whether '/nix/store/hx59pzhi1x2mfm1yjyg8rf3c9swa4nph-gcc-13.3.0/bin/gcc   -std=gnu11 ' works.
+Try: /nix/store/hx59pzhi1x2mfm1yjyg8rf3c9swa4nph-gcc-13.3.0/bin/gcc
+Line: /nix/store/hx59pzhi1x2mfm1yjyg8rf3c9swa4nph-gcc-13.3.0/bin/gcc   -std=gnu11  cmake_bootstrap_39726_test.c -o cmake_bootstrap_39726_test
+----------  file   -----------------------
+
+#ifdef __cplusplus
+# error "The CMAKE_C_COMPILER is set to a C++ compiler"
+#endif
+
+#if defined(_AIX) && defined(__GNUC__) && !defined(_THREAD_SAFE)
+#error "On AIX with GNU we need the -pthread flag."
+#endif
+
+#if defined(__sun) && __STDC_VERSION__ < 199901L
+#error "On Solaris we need C99."
+#endif
+
+#if defined(__hpux) && !(defined(__GNUC__) && ((__GNUC__ * 100) + __GNUC_MINOR__) >= 409)
+#error "On HP-UX we need GCC 4.9 or higher."
+#endif
+
+#include <stdio.h>
+
+int main(int argc, char* argv[])
+{
+  printf("%d%c", (argv != 0), (char)0x0a);
+  return argc - 1;
+}
+
+------------------------------------------
+gcc: fatal error: cannot execute ‘as’: execvp: No such file or directory
+compilation terminated.
+Test failed to compile
+Checking whether '/nix/store/hx59pzhi1x2mfm1yjyg8rf3c9swa4nph-gcc-13.3.0/bin/gcc   -std=gnu1x ' works.
+Try: /nix/store/hx59pzhi1x2mfm1yjyg8rf3c9swa4nph-gcc-13.3.0/bin/gcc
+Line: /nix/store/hx59pzhi1x2mfm1yjyg8rf3c9swa4nph-gcc-13.3.0/bin/gcc   -std=gnu1x  cmake_bootstrap_39726_test.c -o cmake_bootstrap_39726_test
+----------  file   -----------------------
+
+#ifdef __cplusplus
+# error "The CMAKE_C_COMPILER is set to a C++ compiler"
+#endif
+
+#if defined(_AIX) && defined(__GNUC__) && !defined(_THREAD_SAFE)
+#error "On AIX with GNU we need the -pthread flag."
+#endif
+
+#if defined(__sun) && __STDC_VERSION__ < 199901L
+#error "On Solaris we need C99."
+#endif
+
+#if defined(__hpux) && !(defined(__GNUC__) && ((__GNUC__ * 100) + __GNUC_MINOR__) >= 409)
+#error "On HP-UX we need GCC 4.9 or higher."
+#endif
+
+#include <stdio.h>
+
+int main(int argc, char* argv[])
+{
+  printf("%d%c", (argv != 0), (char)0x0a);
+  return argc - 1;
+}
+
+------------------------------------------
+gcc: fatal error: cannot execute ‘as’: execvp: No such file or directory
+compilation terminated.
+Test failed to compile
+Checking whether '/nix/store/hx59pzhi1x2mfm1yjyg8rf3c9swa4nph-gcc-13.3.0/bin/gcc   /std:c11 ' works.
+Try: /nix/store/hx59pzhi1x2mfm1yjyg8rf3c9swa4nph-gcc-13.3.0/bin/gcc
+Line: /nix/store/hx59pzhi1x2mfm1yjyg8rf3c9swa4nph-gcc-13.3.0/bin/gcc   /std:c11  cmake_bootstrap_39726_test.c -o cmake_bootstrap_39726_test
+----------  file   -----------------------
+
+#ifdef __cplusplus
+# error "The CMAKE_C_COMPILER is set to a C++ compiler"
+#endif
+
+#if defined(_AIX) && defined(__GNUC__) && !defined(_THREAD_SAFE)
+#error "On AIX with GNU we need the -pthread flag."
+#endif
+
+#if defined(__sun) && __STDC_VERSION__ < 199901L
+#error "On Solaris we need C99."
+#endif
+
+#if defined(__hpux) && !(defined(__GNUC__) && ((__GNUC__ * 100) + __GNUC_MINOR__) >= 409)
+#error "On HP-UX we need GCC 4.9 or higher."
+#endif
+
+#include <stdio.h>
+
+int main(int argc, char* argv[])
+{
+  printf("%d%c", (argv != 0), (char)0x0a);
+  return argc - 1;
+}
+
+------------------------------------------
+gcc: fatal error: cannot execute ‘as’: execvp: No such file or directory
+compilation terminated.
+Test failed to compile
+Checking whether '/nix/store/hx59pzhi1x2mfm1yjyg8rf3c9swa4nph-gcc-13.3.0/bin/gcc   -h ' works.
+Try: /nix/store/hx59pzhi1x2mfm1yjyg8rf3c9swa4nph-gcc-13.3.0/bin/gcc
+Line: /nix/store/hx59pzhi1x2mfm1yjyg8rf3c9swa4nph-gcc-13.3.0/bin/gcc   -h  cmake_bootstrap_39726_test.c -o cmake_bootstrap_39726_test
+----------  file   -----------------------
+
+#ifdef __cplusplus
+# error "The CMAKE_C_COMPILER is set to a C++ compiler"
+#endif
+
+#if defined(_AIX) && defined(__GNUC__) && !defined(_THREAD_SAFE)
+#error "On AIX with GNU we need the -pthread flag."
+#endif
+
+#if defined(__sun) && __STDC_VERSION__ < 199901L
+#error "On Solaris we need C99."
+#endif
+
+#if defined(__hpux) && !(defined(__GNUC__) && ((__GNUC__ * 100) + __GNUC_MINOR__) >= 409)
+#error "On HP-UX we need GCC 4.9 or higher."
+#endif
+
+#include <stdio.h>
+
+int main(int argc, char* argv[])
+{
+  printf("%d%c", (argv != 0), (char)0x0a);
+  return argc - 1;
+}
+
+------------------------------------------
+gcc: error: unrecognized command-line option ‘-h’
+gcc: fatal error: no input files
+compilation terminated.
+Test failed to compile
+Checking whether '/nix/store/hx59pzhi1x2mfm1yjyg8rf3c9swa4nph-gcc-13.3.0/bin/gcc   std=c11,gnu ' works.
+Try: /nix/store/hx59pzhi1x2mfm1yjyg8rf3c9swa4nph-gcc-13.3.0/bin/gcc
+Line: /nix/store/hx59pzhi1x2mfm1yjyg8rf3c9swa4nph-gcc-13.3.0/bin/gcc   std=c11,gnu  cmake_bootstrap_39726_test.c -o cmake_bootstrap_39726_test
+----------  file   -----------------------
+
+#ifdef __cplusplus
+# error "The CMAKE_C_COMPILER is set to a C++ compiler"
+#endif
+
+#if defined(_AIX) && defined(__GNUC__) && !defined(_THREAD_SAFE)
+#error "On AIX with GNU we need the -pthread flag."
+#endif
+
+#if defined(__sun) && __STDC_VERSION__ < 199901L
+#error "On Solaris we need C99."
+#endif
+
+#if defined(__hpux) && !(defined(__GNUC__) && ((__GNUC__ * 100) + __GNUC_MINOR__) >= 409)
+#error "On HP-UX we need GCC 4.9 or higher."
+#endif
+
+#include <stdio.h>
+
+int main(int argc, char* argv[])
+{
+  printf("%d%c", (argv != 0), (char)0x0a);
+  return argc - 1;
+}
+
+------------------------------------------
+gcc: fatal error: cannot execute ‘as’: execvp: No such file or directory
+compilation terminated.
+Test failed to compile
+Checking whether '/nix/store/hx59pzhi1x2mfm1yjyg8rf3c9swa4nph-gcc-13.3.0/bin/gcc   -std=gnu11 ' works.
+Try: /nix/store/hx59pzhi1x2mfm1yjyg8rf3c9swa4nph-gcc-13.3.0/bin/gcc
+Line: /nix/store/hx59pzhi1x2mfm1yjyg8rf3c9swa4nph-gcc-13.3.0/bin/gcc   -std=gnu11  cmake_bootstrap_39726_test.c -o cmake_bootstrap_39726_test
+----------  file   -----------------------
+
+#ifdef __cplusplus
+# error "The CMAKE_C_COMPILER is set to a C++ compiler"
+#endif
+
+#if defined(_AIX) && defined(__GNUC__) && !defined(_THREAD_SAFE)
+#error "On AIX with GNU we need the -pthread flag."
+#endif
+
+#if defined(__sun) && __STDC_VERSION__ < 199901L
+#error "On Solaris we need C99."
+#endif
+
+#if defined(__hpux) && !(defined(__GNUC__) && ((__GNUC__ * 100) + __GNUC_MINOR__) >= 409)
+#error "On HP-UX we need GCC 4.9 or higher."
+#endif
+
+#include <stdio.h>
+
+int main(int argc, char* argv[])
+{
+  printf("%d%c", (argv != 0), (char)0x0a);
+  return argc - 1;
+}
+
+------------------------------------------
+gcc: fatal error: cannot execute ‘as’: execvp: No such file or directory
+compilation terminated.
+Test failed to compile
+Checking whether '/nix/store/hx59pzhi1x2mfm1yjyg8rf3c9swa4nph-gcc-13.3.0/bin/gcc   -std=gnu11 ' works.
+Try: /nix/store/hx59pzhi1x2mfm1yjyg8rf3c9swa4nph-gcc-13.3.0/bin/gcc
+Line: /nix/store/hx59pzhi1x2mfm1yjyg8rf3c9swa4nph-gcc-13.3.0/bin/gcc   -std=gnu11  cmake_bootstrap_39726_test.c -o cmake_bootstrap_39726_test
+----------  file   -----------------------
+
+#ifdef __cplusplus
+# error "The CMAKE_C_COMPILER is set to a C++ compiler"
+#endif
+
+#if defined(_AIX) && defined(__GNUC__) && !defined(_THREAD_SAFE)
+#error "On AIX with GNU we need the -pthread flag."
+#endif
+
+#if defined(__sun) && __STDC_VERSION__ < 199901L
+#error "On Solaris we need C99."
+#endif
+
+#if defined(__hpux) && !(defined(__GNUC__) && ((__GNUC__ * 100) + __GNUC_MINOR__) >= 409)
+#error "On HP-UX we need GCC 4.9 or higher."
+#endif
+
+#include <stdio.h>
+
+int main(int argc, char* argv[])
+{
+  printf("%d%c", (argv != 0), (char)0x0a);
+  return argc - 1;
+}
+
+------------------------------------------
+gcc: fatal error: cannot execute ‘as’: execvp: No such file or directory
+compilation terminated.
+Test failed to compile
+Checking whether '/nix/store/hx59pzhi1x2mfm1yjyg8rf3c9swa4nph-gcc-13.3.0/bin/gcc   -std=gnu11 ' works.
+Try: /nix/store/hx59pzhi1x2mfm1yjyg8rf3c9swa4nph-gcc-13.3.0/bin/gcc
+Line: /nix/store/hx59pzhi1x2mfm1yjyg8rf3c9swa4nph-gcc-13.3.0/bin/gcc   -std=gnu11  cmake_bootstrap_39726_test.c -o cmake_bootstrap_39726_test
+----------  file   -----------------------
+
+#ifdef __cplusplus
+# error "The CMAKE_C_COMPILER is set to a C++ compiler"
+#endif
+
+#if defined(_AIX) && defined(__GNUC__) && !defined(_THREAD_SAFE)
+#error "On AIX with GNU we need the -pthread flag."
+#endif
+
+#if defined(__sun) && __STDC_VERSION__ < 199901L
+#error "On Solaris we need C99."
+#endif
+
+#if defined(__hpux) && !(defined(__GNUC__) && ((__GNUC__ * 100) + __GNUC_MINOR__) >= 409)
+#error "On HP-UX we need GCC 4.9 or higher."
+#endif
+
+#include <stdio.h>
+
+int main(int argc, char* argv[])
+{
+  printf("%d%c", (argv != 0), (char)0x0a);
+  return argc - 1;
+}
+
+------------------------------------------
+gcc: fatal error: cannot execute ‘as’: execvp: No such file or directory
+compilation terminated.
+Test failed to compile
+Checking whether '/nix/store/hx59pzhi1x2mfm1yjyg8rf3c9swa4nph-gcc-13.3.0/bin/gcc   -std=gnu1x ' works.
+Try: /nix/store/hx59pzhi1x2mfm1yjyg8rf3c9swa4nph-gcc-13.3.0/bin/gcc
+Line: /nix/store/hx59pzhi1x2mfm1yjyg8rf3c9swa4nph-gcc-13.3.0/bin/gcc   -std=gnu1x  cmake_bootstrap_39726_test.c -o cmake_bootstrap_39726_test
+----------  file   -----------------------
+
+#ifdef __cplusplus
+# error "The CMAKE_C_COMPILER is set to a C++ compiler"
+#endif
+
+#if defined(_AIX) && defined(__GNUC__) && !defined(_THREAD_SAFE)
+#error "On AIX with GNU we need the -pthread flag."
+#endif
+
+#if defined(__sun) && __STDC_VERSION__ < 199901L
+#error "On Solaris we need C99."
+#endif
+
+#if defined(__hpux) && !(defined(__GNUC__) && ((__GNUC__ * 100) + __GNUC_MINOR__) >= 409)
+#error "On HP-UX we need GCC 4.9 or higher."
+#endif
+
+#include <stdio.h>
+
+int main(int argc, char* argv[])
+{
+  printf("%d%c", (argv != 0), (char)0x0a);
+  return argc - 1;
+}
+
+------------------------------------------
+gcc: fatal error: cannot execute ‘as’: execvp: No such file or directory
+compilation terminated.
+Test failed to compile
+Checking whether '/nix/store/hx59pzhi1x2mfm1yjyg8rf3c9swa4nph-gcc-13.3.0/bin/gcc   -std=gnu11 ' works.
+Try: /nix/store/hx59pzhi1x2mfm1yjyg8rf3c9swa4nph-gcc-13.3.0/bin/gcc
+Line: /nix/store/hx59pzhi1x2mfm1yjyg8rf3c9swa4nph-gcc-13.3.0/bin/gcc   -std=gnu11  cmake_bootstrap_39726_test.c -o cmake_bootstrap_39726_test
+----------  file   -----------------------
+
+#ifdef __cplusplus
+# error "The CMAKE_C_COMPILER is set to a C++ compiler"
+#endif
+
+#if defined(_AIX) && defined(__GNUC__) && !defined(_THREAD_SAFE)
+#error "On AIX with GNU we need the -pthread flag."
+#endif
+
+#if defined(__sun) && __STDC_VERSION__ < 199901L
+#error "On Solaris we need C99."
+#endif
+
+#if defined(__hpux) && !(defined(__GNUC__) && ((__GNUC__ * 100) + __GNUC_MINOR__) >= 409)
+#error "On HP-UX we need GCC 4.9 or higher."
+#endif
+
+#include <stdio.h>
+
+int main(int argc, char* argv[])
+{
+  printf("%d%c", (argv != 0), (char)0x0a);
+  return argc - 1;
+}
+
+------------------------------------------
+gcc: fatal error: cannot execute ‘as’: execvp: No such file or directory
+compilation terminated.
+Test failed to compile
+Checking whether '/nix/store/hx59pzhi1x2mfm1yjyg8rf3c9swa4nph-gcc-13.3.0/bin/gcc   -Qstd=c11 ' works.
+Try: /nix/store/hx59pzhi1x2mfm1yjyg8rf3c9swa4nph-gcc-13.3.0/bin/gcc
+Line: /nix/store/hx59pzhi1x2mfm1yjyg8rf3c9swa4nph-gcc-13.3.0/bin/gcc   -Qstd=c11  cmake_bootstrap_39726_test.c -o cmake_bootstrap_39726_test
+----------  file   -----------------------
+
+#ifdef __cplusplus
+# error "The CMAKE_C_COMPILER is set to a C++ compiler"
+#endif
+
+#if defined(_AIX) && defined(__GNUC__) && !defined(_THREAD_SAFE)
+#error "On AIX with GNU we need the -pthread flag."
+#endif
+
+#if defined(__sun) && __STDC_VERSION__ < 199901L
+#error "On Solaris we need C99."
+#endif
+
+#if defined(__hpux) && !(defined(__GNUC__) && ((__GNUC__ * 100) + __GNUC_MINOR__) >= 409)
+#error "On HP-UX we need GCC 4.9 or higher."
+#endif
+
+#include <stdio.h>
+
+int main(int argc, char* argv[])
+{
+  printf("%d%c", (argv != 0), (char)0x0a);
+  return argc - 1;
+}
+
+------------------------------------------
+gcc: error: unrecognized command-line option ‘-Qstd=c11’; did you mean ‘-std=c11’?
+Test failed to compile
+Checking whether '/nix/store/hx59pzhi1x2mfm1yjyg8rf3c9swa4nph-gcc-13.3.0/bin/gcc   -std=gnu11 ' works.
+Try: /nix/store/hx59pzhi1x2mfm1yjyg8rf3c9swa4nph-gcc-13.3.0/bin/gcc
+Line: /nix/store/hx59pzhi1x2mfm1yjyg8rf3c9swa4nph-gcc-13.3.0/bin/gcc   -std=gnu11  cmake_bootstrap_39726_test.c -o cmake_bootstrap_39726_test
+----------  file   -----------------------
+
+#ifdef __cplusplus
+# error "The CMAKE_C_COMPILER is set to a C++ compiler"
+#endif
+
+#if defined(_AIX) && defined(__GNUC__) && !defined(_THREAD_SAFE)
+#error "On AIX with GNU we need the -pthread flag."
+#endif
+
+#if defined(__sun) && __STDC_VERSION__ < 199901L
+#error "On Solaris we need C99."
+#endif
+
+#if defined(__hpux) && !(defined(__GNUC__) && ((__GNUC__ * 100) + __GNUC_MINOR__) >= 409)
+#error "On HP-UX we need GCC 4.9 or higher."
+#endif
+
+#include <stdio.h>
+
+int main(int argc, char* argv[])
+{
+  printf("%d%c", (argv != 0), (char)0x0a);
+  return argc - 1;
+}
+
+------------------------------------------
+gcc: fatal error: cannot execute ‘as’: execvp: No such file or directory
+compilation terminated.
+Test failed to compile
+Checking whether '/nix/store/hx59pzhi1x2mfm1yjyg8rf3c9swa4nph-gcc-13.3.0/bin/gcc   -std=gnu11 ' works.
+Try: /nix/store/hx59pzhi1x2mfm1yjyg8rf3c9swa4nph-gcc-13.3.0/bin/gcc
+Line: /nix/store/hx59pzhi1x2mfm1yjyg8rf3c9swa4nph-gcc-13.3.0/bin/gcc   -std=gnu11  cmake_bootstrap_39726_test.c -o cmake_bootstrap_39726_test
+----------  file   -----------------------
+
+#ifdef __cplusplus
+# error "The CMAKE_C_COMPILER is set to a C++ compiler"
+#endif
+
+#if defined(_AIX) && defined(__GNUC__) && !defined(_THREAD_SAFE)
+#error "On AIX with GNU we need the -pthread flag."
+#endif
+
+#if defined(__sun) && __STDC_VERSION__ < 199901L
+#error "On Solaris we need C99."
+#endif
+
+#if defined(__hpux) && !(defined(__GNUC__) && ((__GNUC__ * 100) + __GNUC_MINOR__) >= 409)
+#error "On HP-UX we need GCC 4.9 or higher."
+#endif
+
+#include <stdio.h>
+
+int main(int argc, char* argv[])
+{
+  printf("%d%c", (argv != 0), (char)0x0a);
+  return argc - 1;
+}
+
+------------------------------------------
+gcc: fatal error: cannot execute ‘as’: execvp: No such file or directory
+compilation terminated.
+Test failed to compile
+Checking whether '/nix/store/hx59pzhi1x2mfm1yjyg8rf3c9swa4nph-gcc-13.3.0/bin/gcc   -std=gnu11 ' works.
+Try: /nix/store/hx59pzhi1x2mfm1yjyg8rf3c9swa4nph-gcc-13.3.0/bin/gcc
+Line: /nix/store/hx59pzhi1x2mfm1yjyg8rf3c9swa4nph-gcc-13.3.0/bin/gcc   -std=gnu11  cmake_bootstrap_39726_test.c -o cmake_bootstrap_39726_test
+----------  file   -----------------------
+
+#ifdef __cplusplus
+# error "The CMAKE_C_COMPILER is set to a C++ compiler"
+#endif
+
+#if defined(_AIX) && defined(__GNUC__) && !defined(_THREAD_SAFE)
+#error "On AIX with GNU we need the -pthread flag."
+#endif
+
+#if defined(__sun) && __STDC_VERSION__ < 199901L
+#error "On Solaris we need C99."
+#endif
+
+#if defined(__hpux) && !(defined(__GNUC__) && ((__GNUC__ * 100) + __GNUC_MINOR__) >= 409)
+#error "On HP-UX we need GCC 4.9 or higher."
+#endif
+
+#include <stdio.h>
+
+int main(int argc, char* argv[])
+{
+  printf("%d%c", (argv != 0), (char)0x0a);
+  return argc - 1;
+}
+
+------------------------------------------
+gcc: fatal error: cannot execute ‘as’: execvp: No such file or directory
+compilation terminated.
+Test failed to compile
+Checking whether '/nix/store/hx59pzhi1x2mfm1yjyg8rf3c9swa4nph-gcc-13.3.0/bin/gcc   -std:c11 ' works.
+Try: /nix/store/hx59pzhi1x2mfm1yjyg8rf3c9swa4nph-gcc-13.3.0/bin/gcc
+Line: /nix/store/hx59pzhi1x2mfm1yjyg8rf3c9swa4nph-gcc-13.3.0/bin/gcc   -std:c11  cmake_bootstrap_39726_test.c -o cmake_bootstrap_39726_test
+----------  file   -----------------------
+
+#ifdef __cplusplus
+# error "The CMAKE_C_COMPILER is set to a C++ compiler"
+#endif
+
+#if defined(_AIX) && defined(__GNUC__) && !defined(_THREAD_SAFE)
+#error "On AIX with GNU we need the -pthread flag."
+#endif
+
+#if defined(__sun) && __STDC_VERSION__ < 199901L
+#error "On Solaris we need C99."
+#endif
+
+#if defined(__hpux) && !(defined(__GNUC__) && ((__GNUC__ * 100) + __GNUC_MINOR__) >= 409)
+#error "On HP-UX we need GCC 4.9 or higher."
+#endif
+
+#include <stdio.h>
+
+int main(int argc, char* argv[])
+{
+  printf("%d%c", (argv != 0), (char)0x0a);
+  return argc - 1;
+}
+
+------------------------------------------
+gcc: error: unrecognized command-line option ‘-std:c11’; did you mean ‘-std=c11’?
+Test failed to compile
+Checking whether '/nix/store/hx59pzhi1x2mfm1yjyg8rf3c9swa4nph-gcc-13.3.0/bin/gcc   -std=c11 ' works.
+Try: /nix/store/hx59pzhi1x2mfm1yjyg8rf3c9swa4nph-gcc-13.3.0/bin/gcc
+Line: /nix/store/hx59pzhi1x2mfm1yjyg8rf3c9swa4nph-gcc-13.3.0/bin/gcc   -std=c11  cmake_bootstrap_39726_test.c -o cmake_bootstrap_39726_test
+----------  file   -----------------------
+
+#ifdef __cplusplus
+# error "The CMAKE_C_COMPILER is set to a C++ compiler"
+#endif
+
+#if defined(_AIX) && defined(__GNUC__) && !defined(_THREAD_SAFE)
+#error "On AIX with GNU we need the -pthread flag."
+#endif
+
+#if defined(__sun) && __STDC_VERSION__ < 199901L
+#error "On Solaris we need C99."
+#endif
+
+#if defined(__hpux) && !(defined(__GNUC__) && ((__GNUC__ * 100) + __GNUC_MINOR__) >= 409)
+#error "On HP-UX we need GCC 4.9 or higher."
+#endif
+
+#include <stdio.h>
+
+int main(int argc, char* argv[])
+{
+  printf("%d%c", (argv != 0), (char)0x0a);
+  return argc - 1;
+}
+
+------------------------------------------
+gcc: fatal error: cannot execute ‘as’: execvp: No such file or directory
+compilation terminated.
+Test failed to compile
+Checking whether '/nix/store/hx59pzhi1x2mfm1yjyg8rf3c9swa4nph-gcc-13.3.0/bin/gcc   -c11 ' works.
+Try: /nix/store/hx59pzhi1x2mfm1yjyg8rf3c9swa4nph-gcc-13.3.0/bin/gcc
+Line: /nix/store/hx59pzhi1x2mfm1yjyg8rf3c9swa4nph-gcc-13.3.0/bin/gcc   -c11  cmake_bootstrap_39726_test.c -o cmake_bootstrap_39726_test
+----------  file   -----------------------
+
+#ifdef __cplusplus
+# error "The CMAKE_C_COMPILER is set to a C++ compiler"
+#endif
+
+#if defined(_AIX) && defined(__GNUC__) && !defined(_THREAD_SAFE)
+#error "On AIX with GNU we need the -pthread flag."
+#endif
+
+#if defined(__sun) && __STDC_VERSION__ < 199901L
+#error "On Solaris we need C99."
+#endif
+
+#if defined(__hpux) && !(defined(__GNUC__) && ((__GNUC__ * 100) + __GNUC_MINOR__) >= 409)
+#error "On HP-UX we need GCC 4.9 or higher."
+#endif
+
+#include <stdio.h>
+
+int main(int argc, char* argv[])
+{
+  printf("%d%c", (argv != 0), (char)0x0a);
+  return argc - 1;
+}
+
+------------------------------------------
+gcc: error: unrecognized command-line option ‘-c11’
+Test failed to compile
+Checking whether '/nix/store/hx59pzhi1x2mfm1yjyg8rf3c9swa4nph-gcc-13.3.0/bin/gcc   -std=c11 ' works.
+Try: /nix/store/hx59pzhi1x2mfm1yjyg8rf3c9swa4nph-gcc-13.3.0/bin/gcc
+Line: /nix/store/hx59pzhi1x2mfm1yjyg8rf3c9swa4nph-gcc-13.3.0/bin/gcc   -std=c11  cmake_bootstrap_39726_test.c -o cmake_bootstrap_39726_test
+----------  file   -----------------------
+
+#ifdef __cplusplus
+# error "The CMAKE_C_COMPILER is set to a C++ compiler"
+#endif
+
+#if defined(_AIX) && defined(__GNUC__) && !defined(_THREAD_SAFE)
+#error "On AIX with GNU we need the -pthread flag."
+#endif
+
+#if defined(__sun) && __STDC_VERSION__ < 199901L
+#error "On Solaris we need C99."
+#endif
+
+#if defined(__hpux) && !(defined(__GNUC__) && ((__GNUC__ * 100) + __GNUC_MINOR__) >= 409)
+#error "On HP-UX we need GCC 4.9 or higher."
+#endif
+
+#include <stdio.h>
+
+int main(int argc, char* argv[])
+{
+  printf("%d%c", (argv != 0), (char)0x0a);
+  return argc - 1;
+}
+
+------------------------------------------
+gcc: fatal error: cannot execute ‘as’: execvp: No such file or directory
+compilation terminated.
+Test failed to compile
+Checking whether '/nix/store/hx59pzhi1x2mfm1yjyg8rf3c9swa4nph-gcc-13.3.0/bin/gcc   --iso=11 ' works.
+Try: /nix/store/hx59pzhi1x2mfm1yjyg8rf3c9swa4nph-gcc-13.3.0/bin/gcc
+Line: /nix/store/hx59pzhi1x2mfm1yjyg8rf3c9swa4nph-gcc-13.3.0/bin/gcc   --iso=11  cmake_bootstrap_39726_test.c -o cmake_bootstrap_39726_test
+----------  file   -----------------------
+
+#ifdef __cplusplus
+# error "The CMAKE_C_COMPILER is set to a C++ compiler"
+#endif
+
+#if defined(_AIX) && defined(__GNUC__) && !defined(_THREAD_SAFE)
+#error "On AIX with GNU we need the -pthread flag."
+#endif
+
+#if defined(__sun) && __STDC_VERSION__ < 199901L
+#error "On Solaris we need C99."
+#endif
+
+#if defined(__hpux) && !(defined(__GNUC__) && ((__GNUC__ * 100) + __GNUC_MINOR__) >= 409)
+#error "On HP-UX we need GCC 4.9 or higher."
+#endif
+
+#include <stdio.h>
+
+int main(int argc, char* argv[])
+{
+  printf("%d%c", (argv != 0), (char)0x0a);
+  return argc - 1;
+}
+
+------------------------------------------
+gcc: error: unrecognized command-line option ‘--iso=11’; did you mean ‘--iso’?
+Test failed to compile
+Checking whether '/nix/store/hx59pzhi1x2mfm1yjyg8rf3c9swa4nph-gcc-13.3.0/bin/gcc   --c11 ' works.
+Try: /nix/store/hx59pzhi1x2mfm1yjyg8rf3c9swa4nph-gcc-13.3.0/bin/gcc
+Line: /nix/store/hx59pzhi1x2mfm1yjyg8rf3c9swa4nph-gcc-13.3.0/bin/gcc   --c11  cmake_bootstrap_39726_test.c -o cmake_bootstrap_39726_test
+----------  file   -----------------------
+
+#ifdef __cplusplus
+# error "The CMAKE_C_COMPILER is set to a C++ compiler"
+#endif
+
+#if defined(_AIX) && defined(__GNUC__) && !defined(_THREAD_SAFE)
+#error "On AIX with GNU we need the -pthread flag."
+#endif
+
+#if defined(__sun) && __STDC_VERSION__ < 199901L
+#error "On Solaris we need C99."
+#endif
+
+#if defined(__hpux) && !(defined(__GNUC__) && ((__GNUC__ * 100) + __GNUC_MINOR__) >= 409)
+#error "On HP-UX we need GCC 4.9 or higher."
+#endif
+
+#include <stdio.h>
+
+int main(int argc, char* argv[])
+{
+  printf("%d%c", (argv != 0), (char)0x0a);
+  return argc - 1;
+}
+
+------------------------------------------
+gcc: error: unrecognized command-line option ‘--c11’
+Test failed to compile
+Checking whether '/nix/store/hx59pzhi1x2mfm1yjyg8rf3c9swa4nph-gcc-13.3.0/bin/gcc   -qlanglvl=extc1x ' works.
+Try: /nix/store/hx59pzhi1x2mfm1yjyg8rf3c9swa4nph-gcc-13.3.0/bin/gcc
+Line: /nix/store/hx59pzhi1x2mfm1yjyg8rf3c9swa4nph-gcc-13.3.0/bin/gcc   -qlanglvl=extc1x  cmake_bootstrap_39726_test.c -o cmake_bootstrap_39726_test
+----------  file   -----------------------
+
+#ifdef __cplusplus
+# error "The CMAKE_C_COMPILER is set to a C++ compiler"
+#endif
+
+#if defined(_AIX) && defined(__GNUC__) && !defined(_THREAD_SAFE)
+#error "On AIX with GNU we need the -pthread flag."
+#endif
+
+#if defined(__sun) && __STDC_VERSION__ < 199901L
+#error "On Solaris we need C99."
+#endif
+
+#if defined(__hpux) && !(defined(__GNUC__) && ((__GNUC__ * 100) + __GNUC_MINOR__) >= 409)
+#error "On HP-UX we need GCC 4.9 or higher."
+#endif
+
+#include <stdio.h>
+
+int main(int argc, char* argv[])
+{
+  printf("%d%c", (argv != 0), (char)0x0a);
+  return argc - 1;
+}
+
+------------------------------------------
+gcc: error: unrecognized command-line option ‘-qlanglvl=extc1x’
+Test failed to compile
+Checking whether '/nix/store/hx59pzhi1x2mfm1yjyg8rf3c9swa4nph-gcc-13.3.0/bin/gcc   -qlanglvl=extc1x ' works.
+Try: /nix/store/hx59pzhi1x2mfm1yjyg8rf3c9swa4nph-gcc-13.3.0/bin/gcc
+Line: /nix/store/hx59pzhi1x2mfm1yjyg8rf3c9swa4nph-gcc-13.3.0/bin/gcc   -qlanglvl=extc1x  cmake_bootstrap_39726_test.c -o cmake_bootstrap_39726_test
+----------  file   -----------------------
+
+#ifdef __cplusplus
+# error "The CMAKE_C_COMPILER is set to a C++ compiler"
+#endif
+
+#if defined(_AIX) && defined(__GNUC__) && !defined(_THREAD_SAFE)
+#error "On AIX with GNU we need the -pthread flag."
+#endif
+
+#if defined(__sun) && __STDC_VERSION__ < 199901L
+#error "On Solaris we need C99."
+#endif
+
+#if defined(__hpux) && !(defined(__GNUC__) && ((__GNUC__ * 100) + __GNUC_MINOR__) >= 409)
+#error "On HP-UX we need GCC 4.9 or higher."
+#endif
+
+#include <stdio.h>
+
+int main(int argc, char* argv[])
+{
+  printf("%d%c", (argv != 0), (char)0x0a);
+  return argc - 1;
+}
+
+------------------------------------------
+gcc: error: unrecognized command-line option ‘-qlanglvl=extc1x’
+Test failed to compile
+Checking whether '/nix/store/hx59pzhi1x2mfm1yjyg8rf3c9swa4nph-gcc-13.3.0/bin/gcc   -std=gnu11 ' works.
+Try: /nix/store/hx59pzhi1x2mfm1yjyg8rf3c9swa4nph-gcc-13.3.0/bin/gcc
+Line: /nix/store/hx59pzhi1x2mfm1yjyg8rf3c9swa4nph-gcc-13.3.0/bin/gcc   -std=gnu11  cmake_bootstrap_39726_test.c -o cmake_bootstrap_39726_test
+----------  file   -----------------------
+
+#ifdef __cplusplus
+# error "The CMAKE_C_COMPILER is set to a C++ compiler"
+#endif
+
+#if defined(_AIX) && defined(__GNUC__) && !defined(_THREAD_SAFE)
+#error "On AIX with GNU we need the -pthread flag."
+#endif
+
+#if defined(__sun) && __STDC_VERSION__ < 199901L
+#error "On Solaris we need C99."
+#endif
+
+#if defined(__hpux) && !(defined(__GNUC__) && ((__GNUC__ * 100) + __GNUC_MINOR__) >= 409)
+#error "On HP-UX we need GCC 4.9 or higher."
+#endif
+
+#include <stdio.h>
+
+int main(int argc, char* argv[])
+{
+  printf("%d%c", (argv != 0), (char)0x0a);
+  return argc - 1;
+}
+
+------------------------------------------
+gcc: fatal error: cannot execute ‘as’: execvp: No such file or directory
+compilation terminated.
+Test failed to compile
+Checking whether '/nix/store/hx59pzhi1x2mfm1yjyg8rf3c9swa4nph-gcc-13.3.0/bin/gcc   -std=gnu++11 ' works.
+Try: /nix/store/hx59pzhi1x2mfm1yjyg8rf3c9swa4nph-gcc-13.3.0/bin/gcc
+Line: /nix/store/hx59pzhi1x2mfm1yjyg8rf3c9swa4nph-gcc-13.3.0/bin/gcc   -std=gnu++11  cmake_bootstrap_39726_test.c -o cmake_bootstrap_39726_test
+----------  file   -----------------------
+
+#ifdef __cplusplus
+# error "The CMAKE_C_COMPILER is set to a C++ compiler"
+#endif
+
+#if defined(_AIX) && defined(__GNUC__) && !defined(_THREAD_SAFE)
+#error "On AIX with GNU we need the -pthread flag."
+#endif
+
+#if defined(__sun) && __STDC_VERSION__ < 199901L
+#error "On Solaris we need C99."
+#endif
+
+#if defined(__hpux) && !(defined(__GNUC__) && ((__GNUC__ * 100) + __GNUC_MINOR__) >= 409)
+#error "On HP-UX we need GCC 4.9 or higher."
+#endif
+
+#include <stdio.h>
+
+int main(int argc, char* argv[])
+{
+  printf("%d%c", (argv != 0), (char)0x0a);
+  return argc - 1;
+}
+
+------------------------------------------
+cc1: warning: command-line option ‘-std=gnu++11’ is valid for C++/ObjC++ but not for C
+gcc: fatal error: cannot execute ‘as’: execvp: No such file or directory
+compilation terminated.
+Test failed to compile
+Checking whether '/nix/store/hx59pzhi1x2mfm1yjyg8rf3c9swa4nph-gcc-13.3.0/bin/gcc   -std=gnu++0x ' works.
+Try: /nix/store/hx59pzhi1x2mfm1yjyg8rf3c9swa4nph-gcc-13.3.0/bin/gcc
+Line: /nix/store/hx59pzhi1x2mfm1yjyg8rf3c9swa4nph-gcc-13.3.0/bin/gcc   -std=gnu++0x  cmake_bootstrap_39726_test.c -o cmake_bootstrap_39726_test
+----------  file   -----------------------
+
+#ifdef __cplusplus
+# error "The CMAKE_C_COMPILER is set to a C++ compiler"
+#endif
+
+#if defined(_AIX) && defined(__GNUC__) && !defined(_THREAD_SAFE)
+#error "On AIX with GNU we need the -pthread flag."
+#endif
+
+#if defined(__sun) && __STDC_VERSION__ < 199901L
+#error "On Solaris we need C99."
+#endif
+
+#if defined(__hpux) && !(defined(__GNUC__) && ((__GNUC__ * 100) + __GNUC_MINOR__) >= 409)
+#error "On HP-UX we need GCC 4.9 or higher."
+#endif
+
+#include <stdio.h>
+
+int main(int argc, char* argv[])
+{
+  printf("%d%c", (argv != 0), (char)0x0a);
+  return argc - 1;
+}
+
+------------------------------------------
+cc1: warning: command-line option ‘-std=gnu++11’ is valid for C++/ObjC++ but not for C
+gcc: fatal error: cannot execute ‘as’: execvp: No such file or directory
+compilation terminated.
+Test failed to compile
+Checking whether '/nix/store/hx59pzhi1x2mfm1yjyg8rf3c9swa4nph-gcc-13.3.0/bin/gcc   -std=gnu++14 ' works.
+Try: /nix/store/hx59pzhi1x2mfm1yjyg8rf3c9swa4nph-gcc-13.3.0/bin/gcc
+Line: /nix/store/hx59pzhi1x2mfm1yjyg8rf3c9swa4nph-gcc-13.3.0/bin/gcc   -std=gnu++14  cmake_bootstrap_39726_test.c -o cmake_bootstrap_39726_test
+----------  file   -----------------------
+
+#ifdef __cplusplus
+# error "The CMAKE_C_COMPILER is set to a C++ compiler"
+#endif
+
+#if defined(_AIX) && defined(__GNUC__) && !defined(_THREAD_SAFE)
+#error "On AIX with GNU we need the -pthread flag."
+#endif
+
+#if defined(__sun) && __STDC_VERSION__ < 199901L
+#error "On Solaris we need C99."
+#endif
+
+#if defined(__hpux) && !(defined(__GNUC__) && ((__GNUC__ * 100) + __GNUC_MINOR__) >= 409)
+#error "On HP-UX we need GCC 4.9 or higher."
+#endif
+
+#include <stdio.h>
+
+int main(int argc, char* argv[])
+{
+  printf("%d%c", (argv != 0), (char)0x0a);
+  return argc - 1;
+}
+
+------------------------------------------
+cc1: warning: command-line option ‘-std=gnu++14’ is valid for C++/ObjC++ but not for C
+gcc: fatal error: cannot execute ‘as’: execvp: No such file or directory
+compilation terminated.
+Test failed to compile
+Checking whether '/nix/store/hx59pzhi1x2mfm1yjyg8rf3c9swa4nph-gcc-13.3.0/bin/gcc    ' works.
+Try: /nix/store/hx59pzhi1x2mfm1yjyg8rf3c9swa4nph-gcc-13.3.0/bin/gcc
+Line: /nix/store/hx59pzhi1x2mfm1yjyg8rf3c9swa4nph-gcc-13.3.0/bin/gcc     cmake_bootstrap_39726_test.c -o cmake_bootstrap_39726_test
+----------  file   -----------------------
+
+#ifdef __cplusplus
+# error "The CMAKE_C_COMPILER is set to a C++ compiler"
+#endif
+
+#if defined(_AIX) && defined(__GNUC__) && !defined(_THREAD_SAFE)
+#error "On AIX with GNU we need the -pthread flag."
+#endif
+
+#if defined(__sun) && __STDC_VERSION__ < 199901L
+#error "On Solaris we need C99."
+#endif
+
+#if defined(__hpux) && !(defined(__GNUC__) && ((__GNUC__ * 100) + __GNUC_MINOR__) >= 409)
+#error "On HP-UX we need GCC 4.9 or higher."
+#endif
+
+#include <stdio.h>
+
+int main(int argc, char* argv[])
+{
+  printf("%d%c", (argv != 0), (char)0x0a);
+  return argc - 1;
+}
+
+------------------------------------------
+gcc: fatal error: cannot execute ‘as’: execvp: No such file or directory
+compilation terminated.
+Test failed to compile
+Checking whether '/nix/store/hx59pzhi1x2mfm1yjyg8rf3c9swa4nph-gcc-13.3.0/bin/gcc   -std=gnu99 ' works.
+Try: /nix/store/hx59pzhi1x2mfm1yjyg8rf3c9swa4nph-gcc-13.3.0/bin/gcc
+Line: /nix/store/hx59pzhi1x2mfm1yjyg8rf3c9swa4nph-gcc-13.3.0/bin/gcc   -std=gnu99  cmake_bootstrap_39726_test.c -o cmake_bootstrap_39726_test
+----------  file   -----------------------
+
+#ifdef __cplusplus
+# error "The CMAKE_C_COMPILER is set to a C++ compiler"
+#endif
+
+#if defined(_AIX) && defined(__GNUC__) && !defined(_THREAD_SAFE)
+#error "On AIX with GNU we need the -pthread flag."
+#endif
+
+#if defined(__sun) && __STDC_VERSION__ < 199901L
+#error "On Solaris we need C99."
+#endif
+
+#if defined(__hpux) && !(defined(__GNUC__) && ((__GNUC__ * 100) + __GNUC_MINOR__) >= 409)
+#error "On HP-UX we need GCC 4.9 or higher."
+#endif
+
+#include <stdio.h>
+
+int main(int argc, char* argv[])
+{
+  printf("%d%c", (argv != 0), (char)0x0a);
+  return argc - 1;
+}
+
+------------------------------------------
+gcc: fatal error: cannot execute ‘as’: execvp: No such file or directory
+compilation terminated.
+Test failed to compile
+Checking whether '/nix/store/hx59pzhi1x2mfm1yjyg8rf3c9swa4nph-gcc-13.3.0/bin/gcc   -std=gnu99 ' works.
+Try: /nix/store/hx59pzhi1x2mfm1yjyg8rf3c9swa4nph-gcc-13.3.0/bin/gcc
+Line: /nix/store/hx59pzhi1x2mfm1yjyg8rf3c9swa4nph-gcc-13.3.0/bin/gcc   -std=gnu99  cmake_bootstrap_39726_test.c -o cmake_bootstrap_39726_test
+----------  file   -----------------------
+
+#ifdef __cplusplus
+# error "The CMAKE_C_COMPILER is set to a C++ compiler"
+#endif
+
+#if defined(_AIX) && defined(__GNUC__) && !defined(_THREAD_SAFE)
+#error "On AIX with GNU we need the -pthread flag."
+#endif
+
+#if defined(__sun) && __STDC_VERSION__ < 199901L
+#error "On Solaris we need C99."
+#endif
+
+#if defined(__hpux) && !(defined(__GNUC__) && ((__GNUC__ * 100) + __GNUC_MINOR__) >= 409)
+#error "On HP-UX we need GCC 4.9 or higher."
+#endif
+
+#include <stdio.h>
+
+int main(int argc, char* argv[])
+{
+  printf("%d%c", (argv != 0), (char)0x0a);
+  return argc - 1;
+}
+
+------------------------------------------
+gcc: fatal error: cannot execute ‘as’: execvp: No such file or directory
+compilation terminated.
+Test failed to compile
+Checking whether '/nix/store/hx59pzhi1x2mfm1yjyg8rf3c9swa4nph-gcc-13.3.0/bin/gcc   -std=gnu99 ' works.
+Try: /nix/store/hx59pzhi1x2mfm1yjyg8rf3c9swa4nph-gcc-13.3.0/bin/gcc
+Line: /nix/store/hx59pzhi1x2mfm1yjyg8rf3c9swa4nph-gcc-13.3.0/bin/gcc   -std=gnu99  cmake_bootstrap_39726_test.c -o cmake_bootstrap_39726_test
+----------  file   -----------------------
+
+#ifdef __cplusplus
+# error "The CMAKE_C_COMPILER is set to a C++ compiler"
+#endif
+
+#if defined(_AIX) && defined(__GNUC__) && !defined(_THREAD_SAFE)
+#error "On AIX with GNU we need the -pthread flag."
+#endif
+
+#if defined(__sun) && __STDC_VERSION__ < 199901L
+#error "On Solaris we need C99."
+#endif
+
+#if defined(__hpux) && !(defined(__GNUC__) && ((__GNUC__ * 100) + __GNUC_MINOR__) >= 409)
+#error "On HP-UX we need GCC 4.9 or higher."
+#endif
+
+#include <stdio.h>
+
+int main(int argc, char* argv[])
+{
+  printf("%d%c", (argv != 0), (char)0x0a);
+  return argc - 1;
+}
+
+------------------------------------------
+gcc: fatal error: cannot execute ‘as’: execvp: No such file or directory
+compilation terminated.
+Test failed to compile
+Checking whether '/nix/store/hx59pzhi1x2mfm1yjyg8rf3c9swa4nph-gcc-13.3.0/bin/gcc   -h ' works.
+Try: /nix/store/hx59pzhi1x2mfm1yjyg8rf3c9swa4nph-gcc-13.3.0/bin/gcc
+Line: /nix/store/hx59pzhi1x2mfm1yjyg8rf3c9swa4nph-gcc-13.3.0/bin/gcc   -h  cmake_bootstrap_39726_test.c -o cmake_bootstrap_39726_test
+----------  file   -----------------------
+
+#ifdef __cplusplus
+# error "The CMAKE_C_COMPILER is set to a C++ compiler"
+#endif
+
+#if defined(_AIX) && defined(__GNUC__) && !defined(_THREAD_SAFE)
+#error "On AIX with GNU we need the -pthread flag."
+#endif
+
+#if defined(__sun) && __STDC_VERSION__ < 199901L
+#error "On Solaris we need C99."
+#endif
+
+#if defined(__hpux) && !(defined(__GNUC__) && ((__GNUC__ * 100) + __GNUC_MINOR__) >= 409)
+#error "On HP-UX we need GCC 4.9 or higher."
+#endif
+
+#include <stdio.h>
+
+int main(int argc, char* argv[])
+{
+  printf("%d%c", (argv != 0), (char)0x0a);
+  return argc - 1;
+}
+
+------------------------------------------
+gcc: error: unrecognized command-line option ‘-h’
+gcc: fatal error: no input files
+compilation terminated.
+Test failed to compile
+Checking whether '/nix/store/hx59pzhi1x2mfm1yjyg8rf3c9swa4nph-gcc-13.3.0/bin/gcc   c99,gnu ' works.
+Try: /nix/store/hx59pzhi1x2mfm1yjyg8rf3c9swa4nph-gcc-13.3.0/bin/gcc
+Line: /nix/store/hx59pzhi1x2mfm1yjyg8rf3c9swa4nph-gcc-13.3.0/bin/gcc   c99,gnu  cmake_bootstrap_39726_test.c -o cmake_bootstrap_39726_test
+----------  file   -----------------------
+
+#ifdef __cplusplus
+# error "The CMAKE_C_COMPILER is set to a C++ compiler"
+#endif
+
+#if defined(_AIX) && defined(__GNUC__) && !defined(_THREAD_SAFE)
+#error "On AIX with GNU we need the -pthread flag."
+#endif
+
+#if defined(__sun) && __STDC_VERSION__ < 199901L
+#error "On Solaris we need C99."
+#endif
+
+#if defined(__hpux) && !(defined(__GNUC__) && ((__GNUC__ * 100) + __GNUC_MINOR__) >= 409)
+#error "On HP-UX we need GCC 4.9 or higher."
+#endif
+
+#include <stdio.h>
+
+int main(int argc, char* argv[])
+{
+  printf("%d%c", (argv != 0), (char)0x0a);
+  return argc - 1;
+}
+
+------------------------------------------
+gcc: fatal error: cannot execute ‘as’: execvp: No such file or directory
+compilation terminated.
+Test failed to compile
+Checking whether '/nix/store/hx59pzhi1x2mfm1yjyg8rf3c9swa4nph-gcc-13.3.0/bin/gcc   -std=gnu99 ' works.
+Try: /nix/store/hx59pzhi1x2mfm1yjyg8rf3c9swa4nph-gcc-13.3.0/bin/gcc
+Line: /nix/store/hx59pzhi1x2mfm1yjyg8rf3c9swa4nph-gcc-13.3.0/bin/gcc   -std=gnu99  cmake_bootstrap_39726_test.c -o cmake_bootstrap_39726_test
+----------  file   -----------------------
+
+#ifdef __cplusplus
+# error "The CMAKE_C_COMPILER is set to a C++ compiler"
+#endif
+
+#if defined(_AIX) && defined(__GNUC__) && !defined(_THREAD_SAFE)
+#error "On AIX with GNU we need the -pthread flag."
+#endif
+
+#if defined(__sun) && __STDC_VERSION__ < 199901L
+#error "On Solaris we need C99."
+#endif
+
+#if defined(__hpux) && !(defined(__GNUC__) && ((__GNUC__ * 100) + __GNUC_MINOR__) >= 409)
+#error "On HP-UX we need GCC 4.9 or higher."
+#endif
+
+#include <stdio.h>
+
+int main(int argc, char* argv[])
+{
+  printf("%d%c", (argv != 0), (char)0x0a);
+  return argc - 1;
+}
+
+------------------------------------------
+gcc: fatal error: cannot execute ‘as’: execvp: No such file or directory
+compilation terminated.
+Test failed to compile
+Checking whether '/nix/store/hx59pzhi1x2mfm1yjyg8rf3c9swa4nph-gcc-13.3.0/bin/gcc   -std=gnu99 ' works.
+Try: /nix/store/hx59pzhi1x2mfm1yjyg8rf3c9swa4nph-gcc-13.3.0/bin/gcc
+Line: /nix/store/hx59pzhi1x2mfm1yjyg8rf3c9swa4nph-gcc-13.3.0/bin/gcc   -std=gnu99  cmake_bootstrap_39726_test.c -o cmake_bootstrap_39726_test
+----------  file   -----------------------
+
+#ifdef __cplusplus
+# error "The CMAKE_C_COMPILER is set to a C++ compiler"
+#endif
+
+#if defined(_AIX) && defined(__GNUC__) && !defined(_THREAD_SAFE)
+#error "On AIX with GNU we need the -pthread flag."
+#endif
+
+#if defined(__sun) && __STDC_VERSION__ < 199901L
+#error "On Solaris we need C99."
+#endif
+
+#if defined(__hpux) && !(defined(__GNUC__) && ((__GNUC__ * 100) + __GNUC_MINOR__) >= 409)
+#error "On HP-UX we need GCC 4.9 or higher."
+#endif
+
+#include <stdio.h>
+
+int main(int argc, char* argv[])
+{
+  printf("%d%c", (argv != 0), (char)0x0a);
+  return argc - 1;
+}
+
+------------------------------------------
+gcc: fatal error: cannot execute ‘as’: execvp: No such file or directory
+compilation terminated.
+Test failed to compile
+Checking whether '/nix/store/hx59pzhi1x2mfm1yjyg8rf3c9swa4nph-gcc-13.3.0/bin/gcc   -std=gnu99 ' works.
+Try: /nix/store/hx59pzhi1x2mfm1yjyg8rf3c9swa4nph-gcc-13.3.0/bin/gcc
+Line: /nix/store/hx59pzhi1x2mfm1yjyg8rf3c9swa4nph-gcc-13.3.0/bin/gcc   -std=gnu99  cmake_bootstrap_39726_test.c -o cmake_bootstrap_39726_test
+----------  file   -----------------------
+
+#ifdef __cplusplus
+# error "The CMAKE_C_COMPILER is set to a C++ compiler"
+#endif
+
+#if defined(_AIX) && defined(__GNUC__) && !defined(_THREAD_SAFE)
+#error "On AIX with GNU we need the -pthread flag."
+#endif
+
+#if defined(__sun) && __STDC_VERSION__ < 199901L
+#error "On Solaris we need C99."
+#endif
+
+#if defined(__hpux) && !(defined(__GNUC__) && ((__GNUC__ * 100) + __GNUC_MINOR__) >= 409)
+#error "On HP-UX we need GCC 4.9 or higher."
+#endif
+
+#include <stdio.h>
+
+int main(int argc, char* argv[])
+{
+  printf("%d%c", (argv != 0), (char)0x0a);
+  return argc - 1;
+}
+
+------------------------------------------
+gcc: fatal error: cannot execute ‘as’: execvp: No such file or directory
+compilation terminated.
+Test failed to compile
+Checking whether '/nix/store/hx59pzhi1x2mfm1yjyg8rf3c9swa4nph-gcc-13.3.0/bin/gcc   -std=gnu99 ' works.
+Try: /nix/store/hx59pzhi1x2mfm1yjyg8rf3c9swa4nph-gcc-13.3.0/bin/gcc
+Line: /nix/store/hx59pzhi1x2mfm1yjyg8rf3c9swa4nph-gcc-13.3.0/bin/gcc   -std=gnu99  cmake_bootstrap_39726_test.c -o cmake_bootstrap_39726_test
+----------  file   -----------------------
+
+#ifdef __cplusplus
+# error "The CMAKE_C_COMPILER is set to a C++ compiler"
+#endif
+
+#if defined(_AIX) && defined(__GNUC__) && !defined(_THREAD_SAFE)
+#error "On AIX with GNU we need the -pthread flag."
+#endif
+
+#if defined(__sun) && __STDC_VERSION__ < 199901L
+#error "On Solaris we need C99."
+#endif
+
+#if defined(__hpux) && !(defined(__GNUC__) && ((__GNUC__ * 100) + __GNUC_MINOR__) >= 409)
+#error "On HP-UX we need GCC 4.9 or higher."
+#endif
+
+#include <stdio.h>
+
+int main(int argc, char* argv[])
+{
+  printf("%d%c", (argv != 0), (char)0x0a);
+  return argc - 1;
+}
+
+------------------------------------------
+gcc: fatal error: cannot execute ‘as’: execvp: No such file or directory
+compilation terminated.
+Test failed to compile
+Checking whether '/nix/store/hx59pzhi1x2mfm1yjyg8rf3c9swa4nph-gcc-13.3.0/bin/gcc   -Qstd=c99 ' works.
+Try: /nix/store/hx59pzhi1x2mfm1yjyg8rf3c9swa4nph-gcc-13.3.0/bin/gcc
+Line: /nix/store/hx59pzhi1x2mfm1yjyg8rf3c9swa4nph-gcc-13.3.0/bin/gcc   -Qstd=c99  cmake_bootstrap_39726_test.c -o cmake_bootstrap_39726_test
+----------  file   -----------------------
+
+#ifdef __cplusplus
+# error "The CMAKE_C_COMPILER is set to a C++ compiler"
+#endif
+
+#if defined(_AIX) && defined(__GNUC__) && !defined(_THREAD_SAFE)
+#error "On AIX with GNU we need the -pthread flag."
+#endif
+
+#if defined(__sun) && __STDC_VERSION__ < 199901L
+#error "On Solaris we need C99."
+#endif
+
+#if defined(__hpux) && !(defined(__GNUC__) && ((__GNUC__ * 100) + __GNUC_MINOR__) >= 409)
+#error "On HP-UX we need GCC 4.9 or higher."
+#endif
+
+#include <stdio.h>
+
+int main(int argc, char* argv[])
+{
+  printf("%d%c", (argv != 0), (char)0x0a);
+  return argc - 1;
+}
+
+------------------------------------------
+gcc: error: unrecognized command-line option ‘-Qstd=c99’; did you mean ‘-std=c99’?
+Test failed to compile
+Checking whether '/nix/store/hx59pzhi1x2mfm1yjyg8rf3c9swa4nph-gcc-13.3.0/bin/gcc   -std=gnu99 ' works.
+Try: /nix/store/hx59pzhi1x2mfm1yjyg8rf3c9swa4nph-gcc-13.3.0/bin/gcc
+Line: /nix/store/hx59pzhi1x2mfm1yjyg8rf3c9swa4nph-gcc-13.3.0/bin/gcc   -std=gnu99  cmake_bootstrap_39726_test.c -o cmake_bootstrap_39726_test
+----------  file   -----------------------
+
+#ifdef __cplusplus
+# error "The CMAKE_C_COMPILER is set to a C++ compiler"
+#endif
+
+#if defined(_AIX) && defined(__GNUC__) && !defined(_THREAD_SAFE)
+#error "On AIX with GNU we need the -pthread flag."
+#endif
+
+#if defined(__sun) && __STDC_VERSION__ < 199901L
+#error "On Solaris we need C99."
+#endif
+
+#if defined(__hpux) && !(defined(__GNUC__) && ((__GNUC__ * 100) + __GNUC_MINOR__) >= 409)
+#error "On HP-UX we need GCC 4.9 or higher."
+#endif
+
+#include <stdio.h>
+
+int main(int argc, char* argv[])
+{
+  printf("%d%c", (argv != 0), (char)0x0a);
+  return argc - 1;
+}
+
+------------------------------------------
+gcc: fatal error: cannot execute ‘as’: execvp: No such file or directory
+compilation terminated.
+Test failed to compile
+Checking whether '/nix/store/hx59pzhi1x2mfm1yjyg8rf3c9swa4nph-gcc-13.3.0/bin/gcc   -std=gnu99 ' works.
+Try: /nix/store/hx59pzhi1x2mfm1yjyg8rf3c9swa4nph-gcc-13.3.0/bin/gcc
+Line: /nix/store/hx59pzhi1x2mfm1yjyg8rf3c9swa4nph-gcc-13.3.0/bin/gcc   -std=gnu99  cmake_bootstrap_39726_test.c -o cmake_bootstrap_39726_test
+----------  file   -----------------------
+
+#ifdef __cplusplus
+# error "The CMAKE_C_COMPILER is set to a C++ compiler"
+#endif
+
+#if defined(_AIX) && defined(__GNUC__) && !defined(_THREAD_SAFE)
+#error "On AIX with GNU we need the -pthread flag."
+#endif
+
+#if defined(__sun) && __STDC_VERSION__ < 199901L
+#error "On Solaris we need C99."
+#endif
+
+#if defined(__hpux) && !(defined(__GNUC__) && ((__GNUC__ * 100) + __GNUC_MINOR__) >= 409)
+#error "On HP-UX we need GCC 4.9 or higher."
+#endif
+
+#include <stdio.h>
+
+int main(int argc, char* argv[])
+{
+  printf("%d%c", (argv != 0), (char)0x0a);
+  return argc - 1;
+}
+
+------------------------------------------
+gcc: fatal error: cannot execute ‘as’: execvp: No such file or directory
+compilation terminated.
+Test failed to compile
+Checking whether '/nix/store/hx59pzhi1x2mfm1yjyg8rf3c9swa4nph-gcc-13.3.0/bin/gcc   -std=gnu99 ' works.
+Try: /nix/store/hx59pzhi1x2mfm1yjyg8rf3c9swa4nph-gcc-13.3.0/bin/gcc
+Line: /nix/store/hx59pzhi1x2mfm1yjyg8rf3c9swa4nph-gcc-13.3.0/bin/gcc   -std=gnu99  cmake_bootstrap_39726_test.c -o cmake_bootstrap_39726_test
+----------  file   -----------------------
+
+#ifdef __cplusplus
+# error "The CMAKE_C_COMPILER is set to a C++ compiler"
+#endif
+
+#if defined(_AIX) && defined(__GNUC__) && !defined(_THREAD_SAFE)
+#error "On AIX with GNU we need the -pthread flag."
+#endif
+
+#if defined(__sun) && __STDC_VERSION__ < 199901L
+#error "On Solaris we need C99."
+#endif
+
+#if defined(__hpux) && !(defined(__GNUC__) && ((__GNUC__ * 100) + __GNUC_MINOR__) >= 409)
+#error "On HP-UX we need GCC 4.9 or higher."
+#endif
+
+#include <stdio.h>
+
+int main(int argc, char* argv[])
+{
+  printf("%d%c", (argv != 0), (char)0x0a);
+  return argc - 1;
+}
+
+------------------------------------------
+gcc: fatal error: cannot execute ‘as’: execvp: No such file or directory
+compilation terminated.
+Test failed to compile
+Checking whether '/nix/store/hx59pzhi1x2mfm1yjyg8rf3c9swa4nph-gcc-13.3.0/bin/gcc   -std=c99 ' works.
+Try: /nix/store/hx59pzhi1x2mfm1yjyg8rf3c9swa4nph-gcc-13.3.0/bin/gcc
+Line: /nix/store/hx59pzhi1x2mfm1yjyg8rf3c9swa4nph-gcc-13.3.0/bin/gcc   -std=c99  cmake_bootstrap_39726_test.c -o cmake_bootstrap_39726_test
+----------  file   -----------------------
+
+#ifdef __cplusplus
+# error "The CMAKE_C_COMPILER is set to a C++ compiler"
+#endif
+
+#if defined(_AIX) && defined(__GNUC__) && !defined(_THREAD_SAFE)
+#error "On AIX with GNU we need the -pthread flag."
+#endif
+
+#if defined(__sun) && __STDC_VERSION__ < 199901L
+#error "On Solaris we need C99."
+#endif
+
+#if defined(__hpux) && !(defined(__GNUC__) && ((__GNUC__ * 100) + __GNUC_MINOR__) >= 409)
+#error "On HP-UX we need GCC 4.9 or higher."
+#endif
+
+#include <stdio.h>
+
+int main(int argc, char* argv[])
+{
+  printf("%d%c", (argv != 0), (char)0x0a);
+  return argc - 1;
+}
+
+------------------------------------------
+gcc: fatal error: cannot execute ‘as’: execvp: No such file or directory
+compilation terminated.
+Test failed to compile
+Checking whether '/nix/store/hx59pzhi1x2mfm1yjyg8rf3c9swa4nph-gcc-13.3.0/bin/gcc   -c99 ' works.
+Try: /nix/store/hx59pzhi1x2mfm1yjyg8rf3c9swa4nph-gcc-13.3.0/bin/gcc
+Line: /nix/store/hx59pzhi1x2mfm1yjyg8rf3c9swa4nph-gcc-13.3.0/bin/gcc   -c99  cmake_bootstrap_39726_test.c -o cmake_bootstrap_39726_test
+----------  file   -----------------------
+
+#ifdef __cplusplus
+# error "The CMAKE_C_COMPILER is set to a C++ compiler"
+#endif
+
+#if defined(_AIX) && defined(__GNUC__) && !defined(_THREAD_SAFE)
+#error "On AIX with GNU we need the -pthread flag."
+#endif
+
+#if defined(__sun) && __STDC_VERSION__ < 199901L
+#error "On Solaris we need C99."
+#endif
+
+#if defined(__hpux) && !(defined(__GNUC__) && ((__GNUC__ * 100) + __GNUC_MINOR__) >= 409)
+#error "On HP-UX we need GCC 4.9 or higher."
+#endif
+
+#include <stdio.h>
+
+int main(int argc, char* argv[])
+{
+  printf("%d%c", (argv != 0), (char)0x0a);
+  return argc - 1;
+}
+
+------------------------------------------
+gcc: error: unrecognized command-line option ‘-c99’
+Test failed to compile
+Checking whether '/nix/store/hx59pzhi1x2mfm1yjyg8rf3c9swa4nph-gcc-13.3.0/bin/gcc   -std=c99 ' works.
+Try: /nix/store/hx59pzhi1x2mfm1yjyg8rf3c9swa4nph-gcc-13.3.0/bin/gcc
+Line: /nix/store/hx59pzhi1x2mfm1yjyg8rf3c9swa4nph-gcc-13.3.0/bin/gcc   -std=c99  cmake_bootstrap_39726_test.c -o cmake_bootstrap_39726_test
+----------  file   -----------------------
+
+#ifdef __cplusplus
+# error "The CMAKE_C_COMPILER is set to a C++ compiler"
+#endif
+
+#if defined(_AIX) && defined(__GNUC__) && !defined(_THREAD_SAFE)
+#error "On AIX with GNU we need the -pthread flag."
+#endif
+
+#if defined(__sun) && __STDC_VERSION__ < 199901L
+#error "On Solaris we need C99."
+#endif
+
+#if defined(__hpux) && !(defined(__GNUC__) && ((__GNUC__ * 100) + __GNUC_MINOR__) >= 409)
+#error "On HP-UX we need GCC 4.9 or higher."
+#endif
+
+#include <stdio.h>
+
+int main(int argc, char* argv[])
+{
+  printf("%d%c", (argv != 0), (char)0x0a);
+  return argc - 1;
+}
+
+------------------------------------------
+gcc: fatal error: cannot execute ‘as’: execvp: No such file or directory
+compilation terminated.
+Test failed to compile
+Checking whether '/nix/store/hx59pzhi1x2mfm1yjyg8rf3c9swa4nph-gcc-13.3.0/bin/gcc   -xc99 ' works.
+Try: /nix/store/hx59pzhi1x2mfm1yjyg8rf3c9swa4nph-gcc-13.3.0/bin/gcc
+Line: /nix/store/hx59pzhi1x2mfm1yjyg8rf3c9swa4nph-gcc-13.3.0/bin/gcc   -xc99  cmake_bootstrap_39726_test.c -o cmake_bootstrap_39726_test
+----------  file   -----------------------
+
+#ifdef __cplusplus
+# error "The CMAKE_C_COMPILER is set to a C++ compiler"
+#endif
+
+#if defined(_AIX) && defined(__GNUC__) && !defined(_THREAD_SAFE)
+#error "On AIX with GNU we need the -pthread flag."
+#endif
+
+#if defined(__sun) && __STDC_VERSION__ < 199901L
+#error "On Solaris we need C99."
+#endif
+
+#if defined(__hpux) && !(defined(__GNUC__) && ((__GNUC__ * 100) + __GNUC_MINOR__) >= 409)
+#error "On HP-UX we need GCC 4.9 or higher."
+#endif
+
+#include <stdio.h>
+
+int main(int argc, char* argv[])
+{
+  printf("%d%c", (argv != 0), (char)0x0a);
+  return argc - 1;
+}
+
+------------------------------------------
+gcc: error: language c99 not recognized
+gcc: error: language c99 not recognized
+Test failed to compile
+Checking whether '/nix/store/hx59pzhi1x2mfm1yjyg8rf3c9swa4nph-gcc-13.3.0/bin/gcc   --iso=99 ' works.
+Try: /nix/store/hx59pzhi1x2mfm1yjyg8rf3c9swa4nph-gcc-13.3.0/bin/gcc
+Line: /nix/store/hx59pzhi1x2mfm1yjyg8rf3c9swa4nph-gcc-13.3.0/bin/gcc   --iso=99  cmake_bootstrap_39726_test.c -o cmake_bootstrap_39726_test
+----------  file   -----------------------
+
+#ifdef __cplusplus
+# error "The CMAKE_C_COMPILER is set to a C++ compiler"
+#endif
+
+#if defined(_AIX) && defined(__GNUC__) && !defined(_THREAD_SAFE)
+#error "On AIX with GNU we need the -pthread flag."
+#endif
+
+#if defined(__sun) && __STDC_VERSION__ < 199901L
+#error "On Solaris we need C99."
+#endif
+
+#if defined(__hpux) && !(defined(__GNUC__) && ((__GNUC__ * 100) + __GNUC_MINOR__) >= 409)
+#error "On HP-UX we need GCC 4.9 or higher."
+#endif
+
+#include <stdio.h>
+
+int main(int argc, char* argv[])
+{
+  printf("%d%c", (argv != 0), (char)0x0a);
+  return argc - 1;
+}
+
+------------------------------------------
+gcc: error: unrecognized command-line option ‘--iso=99’; did you mean ‘--iso’?
+Test failed to compile
+Checking whether '/nix/store/hx59pzhi1x2mfm1yjyg8rf3c9swa4nph-gcc-13.3.0/bin/gcc   --c99 ' works.
+Try: /nix/store/hx59pzhi1x2mfm1yjyg8rf3c9swa4nph-gcc-13.3.0/bin/gcc
+Line: /nix/store/hx59pzhi1x2mfm1yjyg8rf3c9swa4nph-gcc-13.3.0/bin/gcc   --c99  cmake_bootstrap_39726_test.c -o cmake_bootstrap_39726_test
+----------  file   -----------------------
+
+#ifdef __cplusplus
+# error "The CMAKE_C_COMPILER is set to a C++ compiler"
+#endif
+
+#if defined(_AIX) && defined(__GNUC__) && !defined(_THREAD_SAFE)
+#error "On AIX with GNU we need the -pthread flag."
+#endif
+
+#if defined(__sun) && __STDC_VERSION__ < 199901L
+#error "On Solaris we need C99."
+#endif
+
+#if defined(__hpux) && !(defined(__GNUC__) && ((__GNUC__ * 100) + __GNUC_MINOR__) >= 409)
+#error "On HP-UX we need GCC 4.9 or higher."
+#endif
+
+#include <stdio.h>
+
+int main(int argc, char* argv[])
+{
+  printf("%d%c", (argv != 0), (char)0x0a);
+  return argc - 1;
+}
+
+------------------------------------------
+gcc: error: unrecognized command-line option ‘--c99’
+Test failed to compile
+Checking whether '/nix/store/hx59pzhi1x2mfm1yjyg8rf3c9swa4nph-gcc-13.3.0/bin/gcc   -qlanglvl=extc99 ' works.
+Try: /nix/store/hx59pzhi1x2mfm1yjyg8rf3c9swa4nph-gcc-13.3.0/bin/gcc
+Line: /nix/store/hx59pzhi1x2mfm1yjyg8rf3c9swa4nph-gcc-13.3.0/bin/gcc   -qlanglvl=extc99  cmake_bootstrap_39726_test.c -o cmake_bootstrap_39726_test
+----------  file   -----------------------
+
+#ifdef __cplusplus
+# error "The CMAKE_C_COMPILER is set to a C++ compiler"
+#endif
+
+#if defined(_AIX) && defined(__GNUC__) && !defined(_THREAD_SAFE)
+#error "On AIX with GNU we need the -pthread flag."
+#endif
+
+#if defined(__sun) && __STDC_VERSION__ < 199901L
+#error "On Solaris we need C99."
+#endif
+
+#if defined(__hpux) && !(defined(__GNUC__) && ((__GNUC__ * 100) + __GNUC_MINOR__) >= 409)
+#error "On HP-UX we need GCC 4.9 or higher."
+#endif
+
+#include <stdio.h>
+
+int main(int argc, char* argv[])
+{
+  printf("%d%c", (argv != 0), (char)0x0a);
+  return argc - 1;
+}
+
+------------------------------------------
+gcc: error: unrecognized command-line option ‘-qlanglvl=extc99’
+Test failed to compile
+Checking whether '/nix/store/hx59pzhi1x2mfm1yjyg8rf3c9swa4nph-gcc-13.3.0/bin/gcc   -std=gnu99 ' works.
+Try: /nix/store/hx59pzhi1x2mfm1yjyg8rf3c9swa4nph-gcc-13.3.0/bin/gcc
+Line: /nix/store/hx59pzhi1x2mfm1yjyg8rf3c9swa4nph-gcc-13.3.0/bin/gcc   -std=gnu99  cmake_bootstrap_39726_test.c -o cmake_bootstrap_39726_test
+----------  file   -----------------------
+
+#ifdef __cplusplus
+# error "The CMAKE_C_COMPILER is set to a C++ compiler"
+#endif
+
+#if defined(_AIX) && defined(__GNUC__) && !defined(_THREAD_SAFE)
+#error "On AIX with GNU we need the -pthread flag."
+#endif
+
+#if defined(__sun) && __STDC_VERSION__ < 199901L
+#error "On Solaris we need C99."
+#endif
+
+#if defined(__hpux) && !(defined(__GNUC__) && ((__GNUC__ * 100) + __GNUC_MINOR__) >= 409)
+#error "On HP-UX we need GCC 4.9 or higher."
+#endif
+
+#include <stdio.h>
+
+int main(int argc, char* argv[])
+{
+  printf("%d%c", (argv != 0), (char)0x0a);
+  return argc - 1;
+}
+
+------------------------------------------
+gcc: fatal error: cannot execute ‘as’: execvp: No such file or directory
+compilation terminated.
+Test failed to compile
+Checking whether '/nix/store/hx59pzhi1x2mfm1yjyg8rf3c9swa4nph-gcc-13.3.0/bin/gcc    ' works.
+Try: /nix/store/hx59pzhi1x2mfm1yjyg8rf3c9swa4nph-gcc-13.3.0/bin/gcc
+Line: /nix/store/hx59pzhi1x2mfm1yjyg8rf3c9swa4nph-gcc-13.3.0/bin/gcc     cmake_bootstrap_39726_test.c -o cmake_bootstrap_39726_test
+----------  file   -----------------------
+
+#ifdef __cplusplus
+# error "The CMAKE_C_COMPILER is set to a C++ compiler"
+#endif
+
+#if defined(_AIX) && defined(__GNUC__) && !defined(_THREAD_SAFE)
+#error "On AIX with GNU we need the -pthread flag."
+#endif
+
+#if defined(__sun) && __STDC_VERSION__ < 199901L
+#error "On Solaris we need C99."
+#endif
+
+#if defined(__hpux) && !(defined(__GNUC__) && ((__GNUC__ * 100) + __GNUC_MINOR__) >= 409)
+#error "On HP-UX we need GCC 4.9 or higher."
+#endif
+
+#include <stdio.h>
+
+int main(int argc, char* argv[])
+{
+  printf("%d%c", (argv != 0), (char)0x0a);
+  return argc - 1;
+}
+
+------------------------------------------
+gcc: fatal error: cannot execute ‘as’: execvp: No such file or directory
+compilation terminated.
+Test failed to compile
+Checking whether '/nix/store/hx59pzhi1x2mfm1yjyg8rf3c9swa4nph-gcc-13.3.0/bin/gcc   -std=gnu90 ' works.
+Try: /nix/store/hx59pzhi1x2mfm1yjyg8rf3c9swa4nph-gcc-13.3.0/bin/gcc
+Line: /nix/store/hx59pzhi1x2mfm1yjyg8rf3c9swa4nph-gcc-13.3.0/bin/gcc   -std=gnu90  cmake_bootstrap_39726_test.c -o cmake_bootstrap_39726_test
+----------  file   -----------------------
+
+#ifdef __cplusplus
+# error "The CMAKE_C_COMPILER is set to a C++ compiler"
+#endif
+
+#if defined(_AIX) && defined(__GNUC__) && !defined(_THREAD_SAFE)
+#error "On AIX with GNU we need the -pthread flag."
+#endif
+
+#if defined(__sun) && __STDC_VERSION__ < 199901L
+#error "On Solaris we need C99."
+#endif
+
+#if defined(__hpux) && !(defined(__GNUC__) && ((__GNUC__ * 100) + __GNUC_MINOR__) >= 409)
+#error "On HP-UX we need GCC 4.9 or higher."
+#endif
+
+#include <stdio.h>
+
+int main(int argc, char* argv[])
+{
+  printf("%d%c", (argv != 0), (char)0x0a);
+  return argc - 1;
+}
+
+------------------------------------------
+gcc: fatal error: cannot execute ‘as’: execvp: No such file or directory
+compilation terminated.
+Test failed to compile
+Checking whether '/nix/store/hx59pzhi1x2mfm1yjyg8rf3c9swa4nph-gcc-13.3.0/bin/gcc   -std=gnu90 ' works.
+Try: /nix/store/hx59pzhi1x2mfm1yjyg8rf3c9swa4nph-gcc-13.3.0/bin/gcc
+Line: /nix/store/hx59pzhi1x2mfm1yjyg8rf3c9swa4nph-gcc-13.3.0/bin/gcc   -std=gnu90  cmake_bootstrap_39726_test.c -o cmake_bootstrap_39726_test
+----------  file   -----------------------
+
+#ifdef __cplusplus
+# error "The CMAKE_C_COMPILER is set to a C++ compiler"
+#endif
+
+#if defined(_AIX) && defined(__GNUC__) && !defined(_THREAD_SAFE)
+#error "On AIX with GNU we need the -pthread flag."
+#endif
+
+#if defined(__sun) && __STDC_VERSION__ < 199901L
+#error "On Solaris we need C99."
+#endif
+
+#if defined(__hpux) && !(defined(__GNUC__) && ((__GNUC__ * 100) + __GNUC_MINOR__) >= 409)
+#error "On HP-UX we need GCC 4.9 or higher."
+#endif
+
+#include <stdio.h>
+
+int main(int argc, char* argv[])
+{
+  printf("%d%c", (argv != 0), (char)0x0a);
+  return argc - 1;
+}
+
+------------------------------------------
+gcc: fatal error: cannot execute ‘as’: execvp: No such file or directory
+compilation terminated.
+Test failed to compile
+Checking whether '/nix/store/hx59pzhi1x2mfm1yjyg8rf3c9swa4nph-gcc-13.3.0/bin/gcc   -std=gnu90 ' works.
+Try: /nix/store/hx59pzhi1x2mfm1yjyg8rf3c9swa4nph-gcc-13.3.0/bin/gcc
+Line: /nix/store/hx59pzhi1x2mfm1yjyg8rf3c9swa4nph-gcc-13.3.0/bin/gcc   -std=gnu90  cmake_bootstrap_39726_test.c -o cmake_bootstrap_39726_test
+----------  file   -----------------------
+
+#ifdef __cplusplus
+# error "The CMAKE_C_COMPILER is set to a C++ compiler"
+#endif
+
+#if defined(_AIX) && defined(__GNUC__) && !defined(_THREAD_SAFE)
+#error "On AIX with GNU we need the -pthread flag."
+#endif
+
+#if defined(__sun) && __STDC_VERSION__ < 199901L
+#error "On Solaris we need C99."
+#endif
+
+#if defined(__hpux) && !(defined(__GNUC__) && ((__GNUC__ * 100) + __GNUC_MINOR__) >= 409)
+#error "On HP-UX we need GCC 4.9 or higher."
+#endif
+
+#include <stdio.h>
+
+int main(int argc, char* argv[])
+{
+  printf("%d%c", (argv != 0), (char)0x0a);
+  return argc - 1;
+}
+
+------------------------------------------
+gcc: fatal error: cannot execute ‘as’: execvp: No such file or directory
+compilation terminated.
+Test failed to compile
+Checking whether '/nix/store/hx59pzhi1x2mfm1yjyg8rf3c9swa4nph-gcc-13.3.0/bin/gcc   -h ' works.
+Try: /nix/store/hx59pzhi1x2mfm1yjyg8rf3c9swa4nph-gcc-13.3.0/bin/gcc
+Line: /nix/store/hx59pzhi1x2mfm1yjyg8rf3c9swa4nph-gcc-13.3.0/bin/gcc   -h  cmake_bootstrap_39726_test.c -o cmake_bootstrap_39726_test
+----------  file   -----------------------
+
+#ifdef __cplusplus
+# error "The CMAKE_C_COMPILER is set to a C++ compiler"
+#endif
+
+#if defined(_AIX) && defined(__GNUC__) && !defined(_THREAD_SAFE)
+#error "On AIX with GNU we need the -pthread flag."
+#endif
+
+#if defined(__sun) && __STDC_VERSION__ < 199901L
+#error "On Solaris we need C99."
+#endif
+
+#if defined(__hpux) && !(defined(__GNUC__) && ((__GNUC__ * 100) + __GNUC_MINOR__) >= 409)
+#error "On HP-UX we need GCC 4.9 or higher."
+#endif
+
+#include <stdio.h>
+
+int main(int argc, char* argv[])
+{
+  printf("%d%c", (argv != 0), (char)0x0a);
+  return argc - 1;
+}
+
+------------------------------------------
+gcc: error: unrecognized command-line option ‘-h’
+gcc: fatal error: no input files
+compilation terminated.
+Test failed to compile
+Checking whether '/nix/store/hx59pzhi1x2mfm1yjyg8rf3c9swa4nph-gcc-13.3.0/bin/gcc   noc99,gnu ' works.
+Try: /nix/store/hx59pzhi1x2mfm1yjyg8rf3c9swa4nph-gcc-13.3.0/bin/gcc
+Line: /nix/store/hx59pzhi1x2mfm1yjyg8rf3c9swa4nph-gcc-13.3.0/bin/gcc   noc99,gnu  cmake_bootstrap_39726_test.c -o cmake_bootstrap_39726_test
+----------  file   -----------------------
+
+#ifdef __cplusplus
+# error "The CMAKE_C_COMPILER is set to a C++ compiler"
+#endif
+
+#if defined(_AIX) && defined(__GNUC__) && !defined(_THREAD_SAFE)
+#error "On AIX with GNU we need the -pthread flag."
+#endif
+
+#if defined(__sun) && __STDC_VERSION__ < 199901L
+#error "On Solaris we need C99."
+#endif
+
+#if defined(__hpux) && !(defined(__GNUC__) && ((__GNUC__ * 100) + __GNUC_MINOR__) >= 409)
+#error "On HP-UX we need GCC 4.9 or higher."
+#endif
+
+#include <stdio.h>
+
+int main(int argc, char* argv[])
+{
+  printf("%d%c", (argv != 0), (char)0x0a);
+  return argc - 1;
+}
+
+------------------------------------------
+gcc: fatal error: cannot execute ‘as’: execvp: No such file or directory
+compilation terminated.
+Test failed to compile
+Checking whether '/nix/store/hx59pzhi1x2mfm1yjyg8rf3c9swa4nph-gcc-13.3.0/bin/gcc   -std=gnu90 ' works.
+Try: /nix/store/hx59pzhi1x2mfm1yjyg8rf3c9swa4nph-gcc-13.3.0/bin/gcc
+Line: /nix/store/hx59pzhi1x2mfm1yjyg8rf3c9swa4nph-gcc-13.3.0/bin/gcc   -std=gnu90  cmake_bootstrap_39726_test.c -o cmake_bootstrap_39726_test
+----------  file   -----------------------
+
+#ifdef __cplusplus
+# error "The CMAKE_C_COMPILER is set to a C++ compiler"
+#endif
+
+#if defined(_AIX) && defined(__GNUC__) && !defined(_THREAD_SAFE)
+#error "On AIX with GNU we need the -pthread flag."
+#endif
+
+#if defined(__sun) && __STDC_VERSION__ < 199901L
+#error "On Solaris we need C99."
+#endif
+
+#if defined(__hpux) && !(defined(__GNUC__) && ((__GNUC__ * 100) + __GNUC_MINOR__) >= 409)
+#error "On HP-UX we need GCC 4.9 or higher."
+#endif
+
+#include <stdio.h>
+
+int main(int argc, char* argv[])
+{
+  printf("%d%c", (argv != 0), (char)0x0a);
+  return argc - 1;
+}
+
+------------------------------------------
+gcc: fatal error: cannot execute ‘as’: execvp: No such file or directory
+compilation terminated.
+Test failed to compile
+Checking whether '/nix/store/hx59pzhi1x2mfm1yjyg8rf3c9swa4nph-gcc-13.3.0/bin/gcc   -std=gnu89 ' works.
+Try: /nix/store/hx59pzhi1x2mfm1yjyg8rf3c9swa4nph-gcc-13.3.0/bin/gcc
+Line: /nix/store/hx59pzhi1x2mfm1yjyg8rf3c9swa4nph-gcc-13.3.0/bin/gcc   -std=gnu89  cmake_bootstrap_39726_test.c -o cmake_bootstrap_39726_test
+----------  file   -----------------------
+
+#ifdef __cplusplus
+# error "The CMAKE_C_COMPILER is set to a C++ compiler"
+#endif
+
+#if defined(_AIX) && defined(__GNUC__) && !defined(_THREAD_SAFE)
+#error "On AIX with GNU we need the -pthread flag."
+#endif
+
+#if defined(__sun) && __STDC_VERSION__ < 199901L
+#error "On Solaris we need C99."
+#endif
+
+#if defined(__hpux) && !(defined(__GNUC__) && ((__GNUC__ * 100) + __GNUC_MINOR__) >= 409)
+#error "On HP-UX we need GCC 4.9 or higher."
+#endif
+
+#include <stdio.h>
+
+int main(int argc, char* argv[])
+{
+  printf("%d%c", (argv != 0), (char)0x0a);
+  return argc - 1;
+}
+
+------------------------------------------
+gcc: fatal error: cannot execute ‘as’: execvp: No such file or directory
+compilation terminated.
+Test failed to compile
+Checking whether '/nix/store/hx59pzhi1x2mfm1yjyg8rf3c9swa4nph-gcc-13.3.0/bin/gcc   -std=gnu90 ' works.
+Try: /nix/store/hx59pzhi1x2mfm1yjyg8rf3c9swa4nph-gcc-13.3.0/bin/gcc
+Line: /nix/store/hx59pzhi1x2mfm1yjyg8rf3c9swa4nph-gcc-13.3.0/bin/gcc   -std=gnu90  cmake_bootstrap_39726_test.c -o cmake_bootstrap_39726_test
+----------  file   -----------------------
+
+#ifdef __cplusplus
+# error "The CMAKE_C_COMPILER is set to a C++ compiler"
+#endif
+
+#if defined(_AIX) && defined(__GNUC__) && !defined(_THREAD_SAFE)
+#error "On AIX with GNU we need the -pthread flag."
+#endif
+
+#if defined(__sun) && __STDC_VERSION__ < 199901L
+#error "On Solaris we need C99."
+#endif
+
+#if defined(__hpux) && !(defined(__GNUC__) && ((__GNUC__ * 100) + __GNUC_MINOR__) >= 409)
+#error "On HP-UX we need GCC 4.9 or higher."
+#endif
+
+#include <stdio.h>
+
+int main(int argc, char* argv[])
+{
+  printf("%d%c", (argv != 0), (char)0x0a);
+  return argc - 1;
+}
+
+------------------------------------------
+gcc: fatal error: cannot execute ‘as’: execvp: No such file or directory
+compilation terminated.
+Test failed to compile
+Checking whether '/nix/store/hx59pzhi1x2mfm1yjyg8rf3c9swa4nph-gcc-13.3.0/bin/gcc   -std=gnu89 ' works.
+Try: /nix/store/hx59pzhi1x2mfm1yjyg8rf3c9swa4nph-gcc-13.3.0/bin/gcc
+Line: /nix/store/hx59pzhi1x2mfm1yjyg8rf3c9swa4nph-gcc-13.3.0/bin/gcc   -std=gnu89  cmake_bootstrap_39726_test.c -o cmake_bootstrap_39726_test
+----------  file   -----------------------
+
+#ifdef __cplusplus
+# error "The CMAKE_C_COMPILER is set to a C++ compiler"
+#endif
+
+#if defined(_AIX) && defined(__GNUC__) && !defined(_THREAD_SAFE)
+#error "On AIX with GNU we need the -pthread flag."
+#endif
+
+#if defined(__sun) && __STDC_VERSION__ < 199901L
+#error "On Solaris we need C99."
+#endif
+
+#if defined(__hpux) && !(defined(__GNUC__) && ((__GNUC__ * 100) + __GNUC_MINOR__) >= 409)
+#error "On HP-UX we need GCC 4.9 or higher."
+#endif
+
+#include <stdio.h>
+
+int main(int argc, char* argv[])
+{
+  printf("%d%c", (argv != 0), (char)0x0a);
+  return argc - 1;
+}
+
+------------------------------------------
+gcc: fatal error: cannot execute ‘as’: execvp: No such file or directory
+compilation terminated.
+Test failed to compile
+Checking whether '/nix/store/hx59pzhi1x2mfm1yjyg8rf3c9swa4nph-gcc-13.3.0/bin/gcc   --c89 ' works.
+Try: /nix/store/hx59pzhi1x2mfm1yjyg8rf3c9swa4nph-gcc-13.3.0/bin/gcc
+Line: /nix/store/hx59pzhi1x2mfm1yjyg8rf3c9swa4nph-gcc-13.3.0/bin/gcc   --c89  cmake_bootstrap_39726_test.c -o cmake_bootstrap_39726_test
+----------  file   -----------------------
+
+#ifdef __cplusplus
+# error "The CMAKE_C_COMPILER is set to a C++ compiler"
+#endif
+
+#if defined(_AIX) && defined(__GNUC__) && !defined(_THREAD_SAFE)
+#error "On AIX with GNU we need the -pthread flag."
+#endif
+
+#if defined(__sun) && __STDC_VERSION__ < 199901L
+#error "On Solaris we need C99."
+#endif
+
+#if defined(__hpux) && !(defined(__GNUC__) && ((__GNUC__ * 100) + __GNUC_MINOR__) >= 409)
+#error "On HP-UX we need GCC 4.9 or higher."
+#endif
+
+#include <stdio.h>
+
+int main(int argc, char* argv[])
+{
+  printf("%d%c", (argv != 0), (char)0x0a);
+  return argc - 1;
+}
+
+------------------------------------------
+gcc: error: unrecognized command-line option ‘--c89’
+Test failed to compile
+Checking whether '/nix/store/hx59pzhi1x2mfm1yjyg8rf3c9swa4nph-gcc-13.3.0/bin/gcc   -e ' works.
+Try: /nix/store/hx59pzhi1x2mfm1yjyg8rf3c9swa4nph-gcc-13.3.0/bin/gcc
+Line: /nix/store/hx59pzhi1x2mfm1yjyg8rf3c9swa4nph-gcc-13.3.0/bin/gcc   -e  cmake_bootstrap_39726_test.c -o cmake_bootstrap_39726_test
+----------  file   -----------------------
+
+#ifdef __cplusplus
+# error "The CMAKE_C_COMPILER is set to a C++ compiler"
+#endif
+
+#if defined(_AIX) && defined(__GNUC__) && !defined(_THREAD_SAFE)
+#error "On AIX with GNU we need the -pthread flag."
+#endif
+
+#if defined(__sun) && __STDC_VERSION__ < 199901L
+#error "On Solaris we need C99."
+#endif
+
+#if defined(__hpux) && !(defined(__GNUC__) && ((__GNUC__ * 100) + __GNUC_MINOR__) >= 409)
+#error "On HP-UX we need GCC 4.9 or higher."
+#endif
+
+#include <stdio.h>
+
+int main(int argc, char* argv[])
+{
+  printf("%d%c", (argv != 0), (char)0x0a);
+  return argc - 1;
+}
+
+------------------------------------------
+gcc: fatal error: no input files
+compilation terminated.
+Test failed to compile
+Checking whether '/nix/store/hx59pzhi1x2mfm1yjyg8rf3c9swa4nph-gcc-13.3.0/bin/gcc   -e ' works.
+Try: /nix/store/hx59pzhi1x2mfm1yjyg8rf3c9swa4nph-gcc-13.3.0/bin/gcc
+Line: /nix/store/hx59pzhi1x2mfm1yjyg8rf3c9swa4nph-gcc-13.3.0/bin/gcc   -e  cmake_bootstrap_39726_test.c -o cmake_bootstrap_39726_test
+----------  file   -----------------------
+
+#ifdef __cplusplus
+# error "The CMAKE_C_COMPILER is set to a C++ compiler"
+#endif
+
+#if defined(_AIX) && defined(__GNUC__) && !defined(_THREAD_SAFE)
+#error "On AIX with GNU we need the -pthread flag."
+#endif
+
+#if defined(__sun) && __STDC_VERSION__ < 199901L
+#error "On Solaris we need C99."
+#endif
+
+#if defined(__hpux) && !(defined(__GNUC__) && ((__GNUC__ * 100) + __GNUC_MINOR__) >= 409)
+#error "On HP-UX we need GCC 4.9 or higher."
+#endif
+
+#include <stdio.h>
+
+int main(int argc, char* argv[])
+{
+  printf("%d%c", (argv != 0), (char)0x0a);
+  return argc - 1;
+}
+
+------------------------------------------
+gcc: fatal error: no input files
+compilation terminated.
+Test failed to compile
+Checking whether '/nix/store/hx59pzhi1x2mfm1yjyg8rf3c9swa4nph-gcc-13.3.0/bin/gcc   -std=gnu90 ' works.
+Try: /nix/store/hx59pzhi1x2mfm1yjyg8rf3c9swa4nph-gcc-13.3.0/bin/gcc
+Line: /nix/store/hx59pzhi1x2mfm1yjyg8rf3c9swa4nph-gcc-13.3.0/bin/gcc   -std=gnu90  cmake_bootstrap_39726_test.c -o cmake_bootstrap_39726_test
+----------  file   -----------------------
+
+#ifdef __cplusplus
+# error "The CMAKE_C_COMPILER is set to a C++ compiler"
+#endif
+
+#if defined(_AIX) && defined(__GNUC__) && !defined(_THREAD_SAFE)
+#error "On AIX with GNU we need the -pthread flag."
+#endif
+
+#if defined(__sun) && __STDC_VERSION__ < 199901L
+#error "On Solaris we need C99."
+#endif
+
+#if defined(__hpux) && !(defined(__GNUC__) && ((__GNUC__ * 100) + __GNUC_MINOR__) >= 409)
+#error "On HP-UX we need GCC 4.9 or higher."
+#endif
+
+#include <stdio.h>
+
+int main(int argc, char* argv[])
+{
+  printf("%d%c", (argv != 0), (char)0x0a);
+  return argc - 1;
+}
+
+------------------------------------------
+gcc: fatal error: cannot execute ‘as’: execvp: No such file or directory
+compilation terminated.
+Test failed to compile
+Checking whether '/nix/store/hx59pzhi1x2mfm1yjyg8rf3c9swa4nph-gcc-13.3.0/bin/gcc   -Qstd=c89 ' works.
+Try: /nix/store/hx59pzhi1x2mfm1yjyg8rf3c9swa4nph-gcc-13.3.0/bin/gcc
+Line: /nix/store/hx59pzhi1x2mfm1yjyg8rf3c9swa4nph-gcc-13.3.0/bin/gcc   -Qstd=c89  cmake_bootstrap_39726_test.c -o cmake_bootstrap_39726_test
+----------  file   -----------------------
+
+#ifdef __cplusplus
+# error "The CMAKE_C_COMPILER is set to a C++ compiler"
+#endif
+
+#if defined(_AIX) && defined(__GNUC__) && !defined(_THREAD_SAFE)
+#error "On AIX with GNU we need the -pthread flag."
+#endif
+
+#if defined(__sun) && __STDC_VERSION__ < 199901L
+#error "On Solaris we need C99."
+#endif
+
+#if defined(__hpux) && !(defined(__GNUC__) && ((__GNUC__ * 100) + __GNUC_MINOR__) >= 409)
+#error "On HP-UX we need GCC 4.9 or higher."
+#endif
+
+#include <stdio.h>
+
+int main(int argc, char* argv[])
+{
+  printf("%d%c", (argv != 0), (char)0x0a);
+  return argc - 1;
+}
+
+------------------------------------------
+gcc: error: unrecognized command-line option ‘-Qstd=c89’; did you mean ‘-std=c89’?
+Test failed to compile
+Checking whether '/nix/store/hx59pzhi1x2mfm1yjyg8rf3c9swa4nph-gcc-13.3.0/bin/gcc   -std=gnu89 ' works.
+Try: /nix/store/hx59pzhi1x2mfm1yjyg8rf3c9swa4nph-gcc-13.3.0/bin/gcc
+Line: /nix/store/hx59pzhi1x2mfm1yjyg8rf3c9swa4nph-gcc-13.3.0/bin/gcc   -std=gnu89  cmake_bootstrap_39726_test.c -o cmake_bootstrap_39726_test
+----------  file   -----------------------
+
+#ifdef __cplusplus
+# error "The CMAKE_C_COMPILER is set to a C++ compiler"
+#endif
+
+#if defined(_AIX) && defined(__GNUC__) && !defined(_THREAD_SAFE)
+#error "On AIX with GNU we need the -pthread flag."
+#endif
+
+#if defined(__sun) && __STDC_VERSION__ < 199901L
+#error "On Solaris we need C99."
+#endif
+
+#if defined(__hpux) && !(defined(__GNUC__) && ((__GNUC__ * 100) + __GNUC_MINOR__) >= 409)
+#error "On HP-UX we need GCC 4.9 or higher."
+#endif
+
+#include <stdio.h>
+
+int main(int argc, char* argv[])
+{
+  printf("%d%c", (argv != 0), (char)0x0a);
+  return argc - 1;
+}
+
+------------------------------------------
+gcc: fatal error: cannot execute ‘as’: execvp: No such file or directory
+compilation terminated.
+Test failed to compile
+Checking whether '/nix/store/hx59pzhi1x2mfm1yjyg8rf3c9swa4nph-gcc-13.3.0/bin/gcc   -std=gnu90 ' works.
+Try: /nix/store/hx59pzhi1x2mfm1yjyg8rf3c9swa4nph-gcc-13.3.0/bin/gcc
+Line: /nix/store/hx59pzhi1x2mfm1yjyg8rf3c9swa4nph-gcc-13.3.0/bin/gcc   -std=gnu90  cmake_bootstrap_39726_test.c -o cmake_bootstrap_39726_test
+----------  file   -----------------------
+
+#ifdef __cplusplus
+# error "The CMAKE_C_COMPILER is set to a C++ compiler"
+#endif
+
+#if defined(_AIX) && defined(__GNUC__) && !defined(_THREAD_SAFE)
+#error "On AIX with GNU we need the -pthread flag."
+#endif
+
+#if defined(__sun) && __STDC_VERSION__ < 199901L
+#error "On Solaris we need C99."
+#endif
+
+#if defined(__hpux) && !(defined(__GNUC__) && ((__GNUC__ * 100) + __GNUC_MINOR__) >= 409)
+#error "On HP-UX we need GCC 4.9 or higher."
+#endif
+
+#include <stdio.h>
+
+int main(int argc, char* argv[])
+{
+  printf("%d%c", (argv != 0), (char)0x0a);
+  return argc - 1;
+}
+
+------------------------------------------
+gcc: fatal error: cannot execute ‘as’: execvp: No such file or directory
+compilation terminated.
+Test failed to compile
+Checking whether '/nix/store/hx59pzhi1x2mfm1yjyg8rf3c9swa4nph-gcc-13.3.0/bin/gcc   -std=gnu90 ' works.
+Try: /nix/store/hx59pzhi1x2mfm1yjyg8rf3c9swa4nph-gcc-13.3.0/bin/gcc
+Line: /nix/store/hx59pzhi1x2mfm1yjyg8rf3c9swa4nph-gcc-13.3.0/bin/gcc   -std=gnu90  cmake_bootstrap_39726_test.c -o cmake_bootstrap_39726_test
+----------  file   -----------------------
+
+#ifdef __cplusplus
+# error "The CMAKE_C_COMPILER is set to a C++ compiler"
+#endif
+
+#if defined(_AIX) && defined(__GNUC__) && !defined(_THREAD_SAFE)
+#error "On AIX with GNU we need the -pthread flag."
+#endif
+
+#if defined(__sun) && __STDC_VERSION__ < 199901L
+#error "On Solaris we need C99."
+#endif
+
+#if defined(__hpux) && !(defined(__GNUC__) && ((__GNUC__ * 100) + __GNUC_MINOR__) >= 409)
+#error "On HP-UX we need GCC 4.9 or higher."
+#endif
+
+#include <stdio.h>
+
+int main(int argc, char* argv[])
+{
+  printf("%d%c", (argv != 0), (char)0x0a);
+  return argc - 1;
+}
+
+------------------------------------------
+gcc: fatal error: cannot execute ‘as’: execvp: No such file or directory
+compilation terminated.
+Test failed to compile
+Checking whether '/nix/store/hx59pzhi1x2mfm1yjyg8rf3c9swa4nph-gcc-13.3.0/bin/gcc   -std=c89 ' works.
+Try: /nix/store/hx59pzhi1x2mfm1yjyg8rf3c9swa4nph-gcc-13.3.0/bin/gcc
+Line: /nix/store/hx59pzhi1x2mfm1yjyg8rf3c9swa4nph-gcc-13.3.0/bin/gcc   -std=c89  cmake_bootstrap_39726_test.c -o cmake_bootstrap_39726_test
+----------  file   -----------------------
+
+#ifdef __cplusplus
+# error "The CMAKE_C_COMPILER is set to a C++ compiler"
+#endif
+
+#if defined(_AIX) && defined(__GNUC__) && !defined(_THREAD_SAFE)
+#error "On AIX with GNU we need the -pthread flag."
+#endif
+
+#if defined(__sun) && __STDC_VERSION__ < 199901L
+#error "On Solaris we need C99."
+#endif
+
+#if defined(__hpux) && !(defined(__GNUC__) && ((__GNUC__ * 100) + __GNUC_MINOR__) >= 409)
+#error "On HP-UX we need GCC 4.9 or higher."
+#endif
+
+#include <stdio.h>
+
+int main(int argc, char* argv[])
+{
+  printf("%d%c", (argv != 0), (char)0x0a);
+  return argc - 1;
+}
+
+------------------------------------------
+gcc: fatal error: cannot execute ‘as’: execvp: No such file or directory
+compilation terminated.
+Test failed to compile
+Checking whether '/nix/store/hx59pzhi1x2mfm1yjyg8rf3c9swa4nph-gcc-13.3.0/bin/gcc   -c89 ' works.
+Try: /nix/store/hx59pzhi1x2mfm1yjyg8rf3c9swa4nph-gcc-13.3.0/bin/gcc
+Line: /nix/store/hx59pzhi1x2mfm1yjyg8rf3c9swa4nph-gcc-13.3.0/bin/gcc   -c89  cmake_bootstrap_39726_test.c -o cmake_bootstrap_39726_test
+----------  file   -----------------------
+
+#ifdef __cplusplus
+# error "The CMAKE_C_COMPILER is set to a C++ compiler"
+#endif
+
+#if defined(_AIX) && defined(__GNUC__) && !defined(_THREAD_SAFE)
+#error "On AIX with GNU we need the -pthread flag."
+#endif
+
+#if defined(__sun) && __STDC_VERSION__ < 199901L
+#error "On Solaris we need C99."
+#endif
+
+#if defined(__hpux) && !(defined(__GNUC__) && ((__GNUC__ * 100) + __GNUC_MINOR__) >= 409)
+#error "On HP-UX we need GCC 4.9 or higher."
+#endif
+
+#include <stdio.h>
+
+int main(int argc, char* argv[])
+{
+  printf("%d%c", (argv != 0), (char)0x0a);
+  return argc - 1;
+}
+
+------------------------------------------
+gcc: error: unrecognized command-line option ‘-c89’
+Test failed to compile
+Checking whether '/nix/store/hx59pzhi1x2mfm1yjyg8rf3c9swa4nph-gcc-13.3.0/bin/gcc   -std=c89 ' works.
+Try: /nix/store/hx59pzhi1x2mfm1yjyg8rf3c9swa4nph-gcc-13.3.0/bin/gcc
+Line: /nix/store/hx59pzhi1x2mfm1yjyg8rf3c9swa4nph-gcc-13.3.0/bin/gcc   -std=c89  cmake_bootstrap_39726_test.c -o cmake_bootstrap_39726_test
+----------  file   -----------------------
+
+#ifdef __cplusplus
+# error "The CMAKE_C_COMPILER is set to a C++ compiler"
+#endif
+
+#if defined(_AIX) && defined(__GNUC__) && !defined(_THREAD_SAFE)
+#error "On AIX with GNU we need the -pthread flag."
+#endif
+
+#if defined(__sun) && __STDC_VERSION__ < 199901L
+#error "On Solaris we need C99."
+#endif
+
+#if defined(__hpux) && !(defined(__GNUC__) && ((__GNUC__ * 100) + __GNUC_MINOR__) >= 409)
+#error "On HP-UX we need GCC 4.9 or higher."
+#endif
+
+#include <stdio.h>
+
+int main(int argc, char* argv[])
+{
+  printf("%d%c", (argv != 0), (char)0x0a);
+  return argc - 1;
+}
+
+------------------------------------------
+gcc: fatal error: cannot execute ‘as’: execvp: No such file or directory
+compilation terminated.
+Test failed to compile
+Checking whether '/nix/store/hx59pzhi1x2mfm1yjyg8rf3c9swa4nph-gcc-13.3.0/bin/gcc   --iso=90 ' works.
+Try: /nix/store/hx59pzhi1x2mfm1yjyg8rf3c9swa4nph-gcc-13.3.0/bin/gcc
+Line: /nix/store/hx59pzhi1x2mfm1yjyg8rf3c9swa4nph-gcc-13.3.0/bin/gcc   --iso=90  cmake_bootstrap_39726_test.c -o cmake_bootstrap_39726_test
+----------  file   -----------------------
+
+#ifdef __cplusplus
+# error "The CMAKE_C_COMPILER is set to a C++ compiler"
+#endif
+
+#if defined(_AIX) && defined(__GNUC__) && !defined(_THREAD_SAFE)
+#error "On AIX with GNU we need the -pthread flag."
+#endif
+
+#if defined(__sun) && __STDC_VERSION__ < 199901L
+#error "On Solaris we need C99."
+#endif
+
+#if defined(__hpux) && !(defined(__GNUC__) && ((__GNUC__ * 100) + __GNUC_MINOR__) >= 409)
+#error "On HP-UX we need GCC 4.9 or higher."
+#endif
+
+#include <stdio.h>
+
+int main(int argc, char* argv[])
+{
+  printf("%d%c", (argv != 0), (char)0x0a);
+  return argc - 1;
+}
+
+------------------------------------------
+gcc: error: unrecognized command-line option ‘--iso=90’; did you mean ‘--iso’?
+Test failed to compile
+Checking whether '/nix/store/hx59pzhi1x2mfm1yjyg8rf3c9swa4nph-gcc-13.3.0/bin/gcc   --c89 ' works.
+Try: /nix/store/hx59pzhi1x2mfm1yjyg8rf3c9swa4nph-gcc-13.3.0/bin/gcc
+Line: /nix/store/hx59pzhi1x2mfm1yjyg8rf3c9swa4nph-gcc-13.3.0/bin/gcc   --c89  cmake_bootstrap_39726_test.c -o cmake_bootstrap_39726_test
+----------  file   -----------------------
+
+#ifdef __cplusplus
+# error "The CMAKE_C_COMPILER is set to a C++ compiler"
+#endif
+
+#if defined(_AIX) && defined(__GNUC__) && !defined(_THREAD_SAFE)
+#error "On AIX with GNU we need the -pthread flag."
+#endif
+
+#if defined(__sun) && __STDC_VERSION__ < 199901L
+#error "On Solaris we need C99."
+#endif
+
+#if defined(__hpux) && !(defined(__GNUC__) && ((__GNUC__ * 100) + __GNUC_MINOR__) >= 409)
+#error "On HP-UX we need GCC 4.9 or higher."
+#endif
+
+#include <stdio.h>
+
+int main(int argc, char* argv[])
+{
+  printf("%d%c", (argv != 0), (char)0x0a);
+  return argc - 1;
+}
+
+------------------------------------------
+gcc: error: unrecognized command-line option ‘--c89’
+Test failed to compile
+Checking whether '/nix/store/hx59pzhi1x2mfm1yjyg8rf3c9swa4nph-gcc-13.3.0/bin/gcc   --relaxed_ansi ' works.
+Try: /nix/store/hx59pzhi1x2mfm1yjyg8rf3c9swa4nph-gcc-13.3.0/bin/gcc
+Line: /nix/store/hx59pzhi1x2mfm1yjyg8rf3c9swa4nph-gcc-13.3.0/bin/gcc   --relaxed_ansi  cmake_bootstrap_39726_test.c -o cmake_bootstrap_39726_test
+----------  file   -----------------------
+
+#ifdef __cplusplus
+# error "The CMAKE_C_COMPILER is set to a C++ compiler"
+#endif
+
+#if defined(_AIX) && defined(__GNUC__) && !defined(_THREAD_SAFE)
+#error "On AIX with GNU we need the -pthread flag."
+#endif
+
+#if defined(__sun) && __STDC_VERSION__ < 199901L
+#error "On Solaris we need C99."
+#endif
+
+#if defined(__hpux) && !(defined(__GNUC__) && ((__GNUC__ * 100) + __GNUC_MINOR__) >= 409)
+#error "On HP-UX we need GCC 4.9 or higher."
+#endif
+
+#include <stdio.h>
+
+int main(int argc, char* argv[])
+{
+  printf("%d%c", (argv != 0), (char)0x0a);
+  return argc - 1;
+}
+
+------------------------------------------
+gcc: error: unrecognized command-line option ‘--relaxed_ansi’
+Test failed to compile
+Checking whether '/nix/store/hx59pzhi1x2mfm1yjyg8rf3c9swa4nph-gcc-13.3.0/bin/gcc   -qlanglvl=extc89 ' works.
+Try: /nix/store/hx59pzhi1x2mfm1yjyg8rf3c9swa4nph-gcc-13.3.0/bin/gcc
+Line: /nix/store/hx59pzhi1x2mfm1yjyg8rf3c9swa4nph-gcc-13.3.0/bin/gcc   -qlanglvl=extc89  cmake_bootstrap_39726_test.c -o cmake_bootstrap_39726_test
+----------  file   -----------------------
+
+#ifdef __cplusplus
+# error "The CMAKE_C_COMPILER is set to a C++ compiler"
+#endif
+
+#if defined(_AIX) && defined(__GNUC__) && !defined(_THREAD_SAFE)
+#error "On AIX with GNU we need the -pthread flag."
+#endif
+
+#if defined(__sun) && __STDC_VERSION__ < 199901L
+#error "On Solaris we need C99."
+#endif
+
+#if defined(__hpux) && !(defined(__GNUC__) && ((__GNUC__ * 100) + __GNUC_MINOR__) >= 409)
+#error "On HP-UX we need GCC 4.9 or higher."
+#endif
+
+#include <stdio.h>
+
+int main(int argc, char* argv[])
+{
+  printf("%d%c", (argv != 0), (char)0x0a);
+  return argc - 1;
+}
+
+------------------------------------------
+gcc: error: unrecognized command-line option ‘-qlanglvl=extc89’
+Test failed to compile
+Checking whether '/nix/store/hx59pzhi1x2mfm1yjyg8rf3c9swa4nph-gcc-13.3.0/bin/gcc   -std=gnu89 ' works.
+Try: /nix/store/hx59pzhi1x2mfm1yjyg8rf3c9swa4nph-gcc-13.3.0/bin/gcc
+Line: /nix/store/hx59pzhi1x2mfm1yjyg8rf3c9swa4nph-gcc-13.3.0/bin/gcc   -std=gnu89  cmake_bootstrap_39726_test.c -o cmake_bootstrap_39726_test
+----------  file   -----------------------
+
+#ifdef __cplusplus
+# error "The CMAKE_C_COMPILER is set to a C++ compiler"
+#endif
+
+#if defined(_AIX) && defined(__GNUC__) && !defined(_THREAD_SAFE)
+#error "On AIX with GNU we need the -pthread flag."
+#endif
+
+#if defined(__sun) && __STDC_VERSION__ < 199901L
+#error "On Solaris we need C99."
+#endif
+
+#if defined(__hpux) && !(defined(__GNUC__) && ((__GNUC__ * 100) + __GNUC_MINOR__) >= 409)
+#error "On HP-UX we need GCC 4.9 or higher."
+#endif
+
+#include <stdio.h>
+
+int main(int argc, char* argv[])
+{
+  printf("%d%c", (argv != 0), (char)0x0a);
+  return argc - 1;
+}
+
+------------------------------------------
+gcc: fatal error: cannot execute ‘as’: execvp: No such file or directory
+compilation terminated.
+Test failed to compile

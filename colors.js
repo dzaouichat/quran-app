@@ -1,0 +1,33 @@
+export const COLORS = {
+  primary: '#0D3B2E',
+  primaryLight: '#1A5C45',
+  primarySoft: '#2D7A5F',
+  gold: '#C9A84C',
+  goldLight: '#E8C97A',
+  goldDark: '#9E7A2E',
+  background: '#F7F3EE',
+  backgroundDark: '#EDE8E0',
+  surface: '#FFFFFF',
+  surfaceWarm: '#FDF9F4',
+  textPrimary: '#1A1A2E',
+  textSecondary: '#5A5A7A',
+  textLight: '#9B9BAD',
+  textWhite: '#FFFFFF',
+  accent: '#C9A84C',
+  accentSoft: 'rgba(201, 168, 76, 0.15)',
+  success: '#2D7A5F',
+  error: '#C0392B',
+  warning: '#E67E22',
+  border: 'rgba(0,0,0,0.08)',
+  borderLight: 'rgba(255,255,255,0.15)',
+  overlay: 'rgba(13, 59, 46, 0.85)',
+  overlayLight: 'rgba(13, 59, 46, 0.4)',
+};
+
+export const GRADIENTS = {
+  primary: ['#0D3B2E', '#1A5C45'],
+  gold: ['#C9A84C', '#E8C97A'],
+  sunset: ['#f7971e', '#ffd200'],
+  night: ['#1A1A2E', '#16213E'],
+  emerald: ['#0D3B2E', '#2D7A5F'],
+};
